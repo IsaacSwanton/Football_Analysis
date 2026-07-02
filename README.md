@@ -19,7 +19,6 @@ Start here:
 - `shot-map.html` - shot locations for England and Mexico.
 - `pitch-map.html` - ordered possession chains into high-xG shots.
 - `graph-overview.html` - loaded graph inventory.
-- `linkedin-post.md` - draft post text.
 
 Current loaded sample used for the demo:
 
