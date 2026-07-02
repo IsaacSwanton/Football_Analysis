@@ -1,0 +1,297 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Event Pattern Analysis</title>
+  <style>
+:root {
+  color-scheme: light;
+  --ink: #14213d;
+  --muted: #667085;
+  --border: #d8dee8;
+  --panel: #ffffff;
+  --bg: #f5f7fb;
+  --accent: #00a676;
+  --danger: #e84a5f;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+}
+.page {
+  width: min(1320px, calc(100vw - 48px));
+  margin: 32px auto;
+}
+header { margin-bottom: 24px; }
+.eyebrow {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+h1 { margin: 0; font-size: 32px; line-height: 1.15; }
+h2 { margin-top: 0; font-size: 18px; }
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 380px;
+  gap: 20px;
+  align-items: start;
+}
+.pitch {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #a7c5b8;
+  background: #dff3e7;
+}
+.grass { fill: #dff3e7; }
+.line, .box, .line-fill {
+  fill: none;
+  stroke: rgba(20, 33, 61, 0.32);
+  stroke-width: 4;
+}
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(20, 33, 61, 0.06);
+}
+.card {
+  border-top: 1px solid var(--border);
+  padding: 14px 0;
+}
+.card:first-of-type { border-top: 0; }
+.tag {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+.card h3 { margin: 0 0 8px; font-size: 16px; }
+.card p { margin: 0 0 8px; color: #344054; }
+small { color: var(--muted); }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+th, td {
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+  padding: 12px;
+}
+th {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.metric {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+.metric span { display: block; color: var(--muted); margin-bottom: 8px; }
+.metric strong { font-size: 28px; }
+.legend {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 14px;
+}
+.key {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+.key.england { background: var(--accent); }
+.key.mexico { background: var(--danger); }
+.network-panel { min-height: 520px; }
+.pattern-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px 22px;
+}
+.pattern-grid .card {
+  border-top: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px;
+}
+.network {
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  display: block;
+}
+.node-label {
+  font-size: 13px;
+  fill: var(--ink);
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 4px;
+  stroke-linejoin: round;
+}
+@media (max-width: 980px) {
+  .layout { grid-template-columns: 1fr; }
+  .page { width: min(100vw - 28px, 1320px); margin: 20px auto; }
+  h1 { font-size: 24px; }
+}
+</style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="eyebrow">Event Driven Analysis</p>
+      <h1>England routes and Mexico vulnerabilities by event archetype</h1>
+    </header>
+    <section class="panel pattern-grid">
+      
+        <article class="card">
+          <p class="tag">Mexico shot-zone vulnerability</p>
+          <h3>central lane / box / six-yard zone</h3>
+          <p>50 sequences | total xG 10.15 | avg xG 0.20</p>
+          <small>avg xG 0.20</small>
+        </article>
+        
+
+        <article class="card">
+          <p class="tag">England attacking route</p>
+          <h3>multi-pass plus carry ending in central lane, six-yard/central box</h3>
+          <p>7 sequences | total xG 3.29 | avg xG 0.47</p>
+          <small>minute 89 xG 0.63; minute 15 xG 0.63; minute 65 xG 0.46</small>
+        </article>
+        
+
+        <article class="card">
+          <p class="tag">Mexico conceded route</p>
+          <h3>multi-pass plus carry ending in central lane, six-yard/central box</h3>
+          <p>4 sequences | total xG 2.33 | avg xG 0.58</p>
+          <small>minute 50 xG 0.93; minute 88 xG 0.55; minute 94 xG 0.52</small>
+        </article>
+        
+
+        <article class="card">
+          <p class="tag">England attacking route</p>
+          <h3>multi-pass combination ending in central lane, six-yard/central box</h3>
+          <p>4 sequences | total xG 1.78 | avg xG 0.44</p>
+          <small>minute 39 xG 0.57; minute 90 xG 0.46; minute 38 xG 0.40</small>
+        </article>
+        
+
+        <article class="card">
+          <p class="tag">Mexico conceded route</p>
+          <h3>carry then final pass ending in central lane, six-yard/central box</h3>
+          <p>3 sequences | total xG 1.51 | avg xG 0.50</p>
+          <small>minute 87 xG 0.92; minute 67 xG 0.30; minute 87 xG 0.29</small>
+        </article>
+        
+
+        <article class="card">
+          <p class="tag">Mexico shot-zone vulnerability</p>
+          <h3>central lane / edge or inside box</h3>
+          <p>28 sequences | total xG 1.13 | avg xG 0.04</p>
+          <small>avg xG 0.04</small>
+        </article>
+        
+
+        <article class="card">
+          <p class="tag">England attacking route</p>
+          <h3>carry then final pass ending in central lane, six-yard/central box</h3>
+          <p>2 sequences | total xG 0.69 | avg xG 0.35</p>
+          <small>minute 50 xG 0.44; minute 76 xG 0.25</small>
+        </article>
+        
+
+        <article class="card">
+          <p class="tag">England attacking route</p>
+          <h3>single final pass ending in central lane, six-yard/central box</h3>
+          <p>1 sequences | total xG 0.61 | avg xG 0.61</p>
+          <small>minute 76 xG 0.61</small>
+        </article>
+        
+
+        <article class="card">
+          <p class="tag">England attacking route</p>
+          <h3>second phase or loose-ball shot ending in central lane, six-yard/central box</h3>
+          <p>1 sequences | total xG 0.44 | avg xG 0.44</p>
+          <small>minute 38 xG 0.44</small>
+        </article>
+        
+
+        <article class="card">
+          <p class="tag">Mexico conceded route</p>
+          <h3>multi-pass combination ending in central lane, six-yard/central box</h3>
+          <p>1 sequences | total xG 0.32 | avg xG 0.32</p>
+          <small>minute 30 xG 0.32</small>
+        </article>
+        
+
+        <article class="card">
+          <p class="tag">Mexico conceded route</p>
+          <h3>single final pass ending in central lane, six-yard/central box</h3>
+          <p>1 sequences | total xG 0.32 | avg xG 0.32</p>
+          <small>minute 11 xG 0.32</small>
+        </article>
+        
+
+        <article class="card">
+          <p class="tag">Mexico shot-zone vulnerability</p>
+          <h3>left channel / box / six-yard zone</h3>
+          <p>4 sequences | total xG 0.18 | avg xG 0.04</p>
+          <small>avg xG 0.04</small>
+        </article>
+        
+
+        <article class="card">
+          <p class="tag">Mexico shot-zone vulnerability</p>
+          <h3>right channel / box / six-yard zone</h3>
+          <p>3 sequences | total xG 0.12 | avg xG 0.04</p>
+          <small>avg xG 0.04</small>
+        </article>
+        
+
+        <article class="card">
+          <p class="tag">Mexico shot-zone vulnerability</p>
+          <h3>right channel / edge or inside box</h3>
+          <p>4 sequences | total xG 0.10 | avg xG 0.03</p>
+          <small>avg xG 0.03</small>
+        </article>
+        
+
+        <article class="card">
+          <p class="tag">Mexico shot-zone vulnerability</p>
+          <h3>central lane / outside box</h3>
+          <p>1 sequences | total xG 0.03 | avg xG 0.03</p>
+          <small>avg xG 0.03</small>
+        </article>
+        
+
+        <article class="card">
+          <p class="tag">Mexico shot-zone vulnerability</p>
+          <h3>left channel / edge or inside box</h3>
+          <p>1 sequences | total xG 0.01 | avg xG 0.01</p>
+          <small>avg xG 0.01</small>
+        </article>
+        
+    </section>
+  </main>
+</body>
+</html>

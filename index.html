@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Football Knowledge Graph Demo</title>
+  <style>
+    :root {
+      --ink: #14213d;
+      --muted: #667085;
+      --border: #d8dee8;
+      --panel: #ffffff;
+      --bg: #f5f7fb;
+      --accent: #00a676;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, Arial, sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+    }
+    main {
+      width: min(980px, calc(100vw - 40px));
+      margin: 48px auto;
+    }
+    p { color: var(--muted); line-height: 1.6; }
+    h1 { margin: 0 0 12px; font-size: 40px; line-height: 1.1; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+      margin-top: 28px;
+    }
+    a {
+      display: block;
+      min-height: 132px;
+      padding: 18px;
+      color: inherit;
+      text-decoration: none;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      box-shadow: 0 10px 30px rgba(20, 33, 61, 0.06);
+    }
+    a strong { display: block; margin-bottom: 8px; color: var(--accent); }
+    a span { color: var(--muted); line-height: 1.45; }
+    .note {
+      margin-top: 28px;
+      padding: 16px;
+      border-left: 4px solid var(--accent);
+      background: #fff;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Football Knowledge Graph Demo</h1>
+    <p>
+      Event-driven football analysis using Neo4j, LangGraph and public historical
+      StatsBomb World Cup open-data. The point is not live scouting certainty;
+      it is showing how knowledge graphs help AI reason over connected context.
+    </p>
+    <section class="grid">
+      <a href="outputs/statsbomb-england-mexico/event-patterns.html">
+        <strong>Event Patterns</strong>
+        <span>Transferable route and vulnerability archetypes, not historical player dependencies.</span>
+      </a>
+      <a href="outputs/statsbomb-england-mexico/mexico-vulnerability-heatmap.html">
+        <strong>Mexico Heat Map</strong>
+        <span>Shot value conceded by zone.</span>
+      </a>
+      <a href="outputs/statsbomb-england-mexico/shot-map.html">
+        <strong>Shot Map</strong>
+        <span>England and Mexico shot locations and xG values.</span>
+      </a>
+      <a href="outputs/statsbomb-england-mexico/pitch-map.html">
+        <strong>Possession Chains</strong>
+        <span>Ordered event chains into high-value shots.</span>
+      </a>
+      <a href="outputs/statsbomb-england-mexico/graph-overview.html">
+        <strong>Graph Overview</strong>
+        <span>Loaded node and relationship inventory.</span>
+      </a>
+      <a href="outputs/statsbomb-england-mexico/linkedin-post.md">
+        <strong>LinkedIn Draft</strong>
+        <span>Post copy to adapt before publishing.</span>
+      </a>
+    </section>
+    <p class="note">
+      Uses public historical StatsBomb open-data. Paid/live feeds would be needed
+      for a current scouting-grade England vs Mexico report.
+    </p>
+  </main>
+</body>
+</html>

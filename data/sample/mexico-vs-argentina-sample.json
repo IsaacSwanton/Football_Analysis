@@ -1,0 +1,112 @@
+{
+  "match": {
+    "id": "sample-mexico-argentina-2026",
+    "competition": "FIFA World Cup",
+    "season": "2026",
+    "home_team": "Mexico",
+    "away_team": "Argentina"
+  },
+  "events": [
+    {
+      "id": "evt-001",
+      "index": 1,
+      "period": 1,
+      "timestamp": "00:14:11.000",
+      "minute": 14,
+      "second": 11,
+      "type": {"id": 30, "name": "Pass"},
+      "possession": 8,
+      "team": {"id": 779, "name": "Argentina"},
+      "player": {"id": 5503, "name": "Enzo Fernandez"},
+      "location": [54.2, 48.1],
+      "pass": {
+        "recipient": {"id": 5504, "name": "Alexis Mac Allister"},
+        "end_location": [66.5, 42.4]
+      }
+    },
+    {
+      "id": "evt-002",
+      "index": 2,
+      "period": 1,
+      "timestamp": "00:14:14.000",
+      "minute": 14,
+      "second": 14,
+      "type": {"id": 43, "name": "Carry"},
+      "possession": 8,
+      "team": {"id": 779, "name": "Argentina"},
+      "player": {"id": 5504, "name": "Alexis Mac Allister"},
+      "location": [66.5, 42.4],
+      "carry": {
+        "end_location": [78.1, 36.8]
+      }
+    },
+    {
+      "id": "evt-003",
+      "index": 3,
+      "period": 1,
+      "timestamp": "00:14:18.000",
+      "minute": 14,
+      "second": 18,
+      "type": {"id": 30, "name": "Pass"},
+      "possession": 8,
+      "team": {"id": 779, "name": "Argentina"},
+      "player": {"id": 5504, "name": "Alexis Mac Allister"},
+      "location": [78.1, 36.8],
+      "pass": {
+        "recipient": {"id": 3090, "name": "Lionel Messi"},
+        "end_location": [91.0, 31.2]
+      }
+    },
+    {
+      "id": "evt-004",
+      "index": 4,
+      "period": 1,
+      "timestamp": "00:14:21.000",
+      "minute": 14,
+      "second": 21,
+      "type": {"id": 16, "name": "Shot"},
+      "possession": 8,
+      "team": {"id": 779, "name": "Argentina"},
+      "player": {"id": 3090, "name": "Lionel Messi"},
+      "location": [103.4, 34.6],
+      "shot": {
+        "statsbomb_xg": 0.24,
+        "outcome": {"id": 100, "name": "Saved"}
+      }
+    },
+    {
+      "id": "evt-005",
+      "index": 5,
+      "period": 1,
+      "timestamp": "00:31:03.000",
+      "minute": 31,
+      "second": 3,
+      "type": {"id": 30, "name": "Pass"},
+      "possession": 17,
+      "team": {"id": 771, "name": "Mexico"},
+      "player": {"id": 7001, "name": "Edson Alvarez"},
+      "location": [42.0, 44.0],
+      "pass": {
+        "recipient": {"id": 7002, "name": "Luis Chavez"},
+        "end_location": [56.0, 38.0]
+      }
+    },
+    {
+      "id": "evt-006",
+      "index": 6,
+      "period": 1,
+      "timestamp": "00:31:07.000",
+      "minute": 31,
+      "second": 7,
+      "type": {"id": 16, "name": "Shot"},
+      "possession": 17,
+      "team": {"id": 771, "name": "Mexico"},
+      "player": {"id": 7002, "name": "Luis Chavez"},
+      "location": [96.0, 47.0],
+      "shot": {
+        "statsbomb_xg": 0.07,
+        "outcome": {"id": 98, "name": "Off T"}
+      }
+    }
+  ]
+}

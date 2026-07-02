@@ -1,0 +1,336 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>England Chance Network</title>
+  <style>
+:root {
+  color-scheme: light;
+  --ink: #14213d;
+  --muted: #667085;
+  --border: #d8dee8;
+  --panel: #ffffff;
+  --bg: #f5f7fb;
+  --accent: #00a676;
+  --danger: #e84a5f;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+}
+.page {
+  width: min(1320px, calc(100vw - 48px));
+  margin: 32px auto;
+}
+header { margin-bottom: 24px; }
+.eyebrow {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+h1 { margin: 0; font-size: 32px; line-height: 1.15; }
+h2 { margin-top: 0; font-size: 18px; }
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 380px;
+  gap: 20px;
+  align-items: start;
+}
+.pitch {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #a7c5b8;
+  background: #dff3e7;
+}
+.grass { fill: #dff3e7; }
+.line, .box, .line-fill {
+  fill: none;
+  stroke: rgba(20, 33, 61, 0.32);
+  stroke-width: 4;
+}
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(20, 33, 61, 0.06);
+}
+.card {
+  border-top: 1px solid var(--border);
+  padding: 14px 0;
+}
+.card:first-of-type { border-top: 0; }
+.tag {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+.card h3 { margin: 0 0 8px; font-size: 16px; }
+.card p { margin: 0 0 8px; color: #344054; }
+small { color: var(--muted); }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+th, td {
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+  padding: 12px;
+}
+th {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.metric {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+.metric span { display: block; color: var(--muted); margin-bottom: 8px; }
+.metric strong { font-size: 28px; }
+.legend {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 14px;
+}
+.key {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+.key.england { background: var(--accent); }
+.key.mexico { background: var(--danger); }
+.network-panel { min-height: 520px; }
+.pattern-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px 22px;
+}
+.pattern-grid .card {
+  border-top: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px;
+}
+.network {
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  display: block;
+}
+.node-label {
+  font-size: 13px;
+  fill: var(--ink);
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 4px;
+  stroke-linejoin: round;
+}
+@media (max-width: 980px) {
+  .layout { grid-template-columns: 1fr; }
+  .page { width: min(100vw - 28px, 1320px); margin: 20px auto; }
+  h1 { font-size: 24px; }
+}
+</style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="eyebrow">Chance Creation Network</p>
+      <h1>England player links before high-xG shots</h1>
+    </header>
+    <section class="layout">
+      <div class="panel network-panel"><svg class="network" viewBox="0 0 960 660" role="img" aria-label="Player combination network"><line x1="383.6" y1="110.2" x2="707.0" y2="407.9" stroke="#456990" stroke-width="5.9" stroke-opacity="0.42" /><line x1="707.0" y1="407.9" x2="383.6" y2="549.8" stroke="#456990" stroke-width="5.9" stroke-opacity="0.42" /><line x1="268.9" y1="444.2" x2="538.9" y2="97.3" stroke="#456990" stroke-width="5.9" stroke-opacity="0.42" /><line x1="538.9" y1="97.3" x2="538.9" y2="562.7" stroke="#456990" stroke-width="5.9" stroke-opacity="0.42" /><line x1="707.0" y1="407.9" x2="383.6" y2="110.2" stroke="#456990" stroke-width="7.5" stroke-opacity="0.42" /><line x1="383.6" y1="110.2" x2="669.4" y2="182.6" stroke="#456990" stroke-width="5.8" stroke-opacity="0.42" /><line x1="268.9" y1="215.8" x2="538.9" y2="562.7" stroke="#456990" stroke-width="8.5" stroke-opacity="0.42" /><line x1="538.9" y1="562.7" x2="707.0" y2="252.1" stroke="#456990" stroke-width="8.5" stroke-opacity="0.42" /><line x1="707.0" y1="252.1" x2="243.3" y2="290.5" stroke="#456990" stroke-width="8.5" stroke-opacity="0.42" /><line x1="460.2" y1="569.2" x2="317.5" y2="506.6" stroke="#456990" stroke-width="4.7" stroke-opacity="0.42" /><line x1="317.5" y1="506.6" x2="611.3" y2="129.1" stroke="#456990" stroke-width="4.7" stroke-opacity="0.42" /><line x1="669.4" y1="182.6" x2="460.2" y2="569.2" stroke="#456990" stroke-width="4.7" stroke-opacity="0.42" /><line x1="460.2" y1="569.2" x2="243.3" y2="290.5" stroke="#456990" stroke-width="4.7" stroke-opacity="0.42" /><line x1="611.3" y1="530.9" x2="611.3" y2="129.1" stroke="#456990" stroke-width="4.6" stroke-opacity="0.42" /><line x1="611.3" y1="129.1" x2="611.3" y2="530.9" stroke="#456990" stroke-width="4.6" stroke-opacity="0.42" /><line x1="538.9" y1="562.7" x2="669.4" y2="182.6" stroke="#456990" stroke-width="4.6" stroke-opacity="0.42" /><line x1="720.0" y1="330.0" x2="707.0" y2="252.1" stroke="#456990" stroke-width="7.4" stroke-opacity="0.42" /><line x1="317.5" y1="153.4" x2="538.9" y2="562.7" stroke="#456990" stroke-width="4.3" stroke-opacity="0.42" /><line x1="538.9" y1="562.7" x2="611.3" y2="129.1" stroke="#456990" stroke-width="6.3" stroke-opacity="0.42" /><line x1="538.9" y1="97.3" x2="460.2" y2="569.2" stroke="#456990" stroke-width="6.8" stroke-opacity="0.42" /><line x1="460.2" y1="569.2" x2="720.0" y2="330.0" stroke="#456990" stroke-width="4.3" stroke-opacity="0.42" /><line x1="460.2" y1="569.2" x2="538.9" y2="562.7" stroke="#456990" stroke-width="4.0" stroke-opacity="0.42" /><line x1="243.3" y1="369.5" x2="460.2" y2="90.8" stroke="#456990" stroke-width="3.5" stroke-opacity="0.42" /><line x1="460.2" y1="90.8" x2="669.4" y2="477.4" stroke="#456990" stroke-width="3.5" stroke-opacity="0.42" /><line x1="669.4" y1="477.4" x2="538.9" y2="562.7" stroke="#456990" stroke-width="3.5" stroke-opacity="0.42" /><g><circle cx="720.0" cy="330.0" r="24" fill="#00a676" fill-opacity="0.86" /><text x="720.0" y="372.0" text-anchor="middle" class="node-label">Bamidele Alli</text></g><g><circle cx="707.0" cy="407.9" r="24" fill="#00a676" fill-opacity="0.86" /><text x="707.0" y="449.9" text-anchor="middle" class="node-label">Callum Wilson</text></g><g><circle cx="669.4" cy="477.4" r="24" fill="#00a676" fill-opacity="0.86" /><text x="669.4" y="519.4" text-anchor="middle" class="node-label">Declan Rice</text></g><g><circle cx="611.3" cy="530.9" r="24" fill="#00a676" fill-opacity="0.86" /><text x="611.3" y="572.9" text-anchor="middle" class="node-label">Eric Dier</text></g><g><circle cx="538.9" cy="562.7" r="24" fill="#00a676" fill-opacity="0.86" /><text x="538.9" y="604.7" text-anchor="middle" class="node-label">Harry Kane</text></g><g><circle cx="460.2" cy="569.2" r="24" fill="#00a676" fill-opacity="0.86" /><text x="460.2" y="611.2" text-anchor="middle" class="node-label">Harry Maguire</text></g><g><circle cx="383.6" cy="549.8" r="24" fill="#00a676" fill-opacity="0.86" /><text x="383.6" y="591.8" text-anchor="middle" class="node-label">Jack Grealish</text></g><g><circle cx="317.5" cy="506.6" r="24" fill="#00a676" fill-opacity="0.86" /><text x="317.5" y="548.6" text-anchor="middle" class="node-label">Jamie Vardy</text></g><g><circle cx="268.9" cy="444.2" r="24" fill="#00a676" fill-opacity="0.86" /><text x="268.9" y="486.2" text-anchor="middle" class="node-label">Jesse Lingard</text></g><g><circle cx="243.3" cy="369.5" r="24" fill="#00a676" fill-opacity="0.86" /><text x="243.3" y="411.5" text-anchor="middle" class="node-label">Joe Allen</text></g><g><circle cx="243.3" cy="290.5" r="24" fill="#00a676" fill-opacity="0.86" /><text x="243.3" y="332.5" text-anchor="middle" class="node-label">John Stones</text></g><g><circle cx="268.9" cy="215.8" r="24" fill="#00a676" fill-opacity="0.86" /><text x="268.9" y="257.8" text-anchor="middle" class="node-label">Jordan Brian Henderson</text></g><g><circle cx="317.5" cy="153.4" r="24" fill="#00a676" fill-opacity="0.86" /><text x="317.5" y="195.4" text-anchor="middle" class="node-label">Jordan Pickford</text></g><g><circle cx="383.6" cy="110.2" r="24" fill="#00a676" fill-opacity="0.86" /><text x="383.6" y="152.2" text-anchor="middle" class="node-label">Jude Bellingham</text></g><g><circle cx="460.2" cy="90.8" r="24" fill="#00a676" fill-opacity="0.86" /><text x="460.2" y="132.8" text-anchor="middle" class="node-label">Kieffer Roberto Francisco Moore</text></g><g><circle cx="538.9" cy="97.3" r="24" fill="#00a676" fill-opacity="0.86" /><text x="538.9" y="139.3" text-anchor="middle" class="node-label">Kieran Trippier</text></g><g><circle cx="611.3" cy="129.1" r="24" fill="#00a676" fill-opacity="0.86" /><text x="611.3" y="171.1" text-anchor="middle" class="node-label">Marcus Rashford</text></g><g><circle cx="669.4" cy="182.6" r="24" fill="#00a676" fill-opacity="0.86" /><text x="669.4" y="224.6" text-anchor="middle" class="node-label">Philip Foden</text></g><g><circle cx="707.0" cy="252.1" r="24" fill="#00a676" fill-opacity="0.86" /><text x="707.0" y="294.1" text-anchor="middle" class="node-label">Raheem Sterling</text></g></svg></div>
+      <aside class="panel">
+        <h2>Top links</h2>
+        <table>
+          <thead><tr><th>From</th><th>To</th><th>Count</th><th>Total xG</th></tr></thead>
+          <tbody>
+        <tr>
+          <td>Raheem Sterling</td>
+          <td>John Stones</td>
+          <td>2</td>
+          <td>1.00</td>
+        </tr>
+        
+
+        <tr>
+          <td>Jordan Brian Henderson</td>
+          <td>Harry Kane</td>
+          <td>2</td>
+          <td>1.00</td>
+        </tr>
+        
+
+        <tr>
+          <td>Harry Kane</td>
+          <td>Raheem Sterling</td>
+          <td>2</td>
+          <td>1.00</td>
+        </tr>
+        
+
+        <tr>
+          <td>Callum Wilson</td>
+          <td>Jude Bellingham</td>
+          <td>2</td>
+          <td>0.86</td>
+        </tr>
+        
+
+        <tr>
+          <td>Bamidele Alli</td>
+          <td>Raheem Sterling</td>
+          <td>2</td>
+          <td>0.84</td>
+        </tr>
+        
+
+        <tr>
+          <td>Kieran Trippier</td>
+          <td>Harry Maguire</td>
+          <td>2</td>
+          <td>0.76</td>
+        </tr>
+        
+
+        <tr>
+          <td>Harry Kane</td>
+          <td>Marcus Rashford</td>
+          <td>2</td>
+          <td>0.69</td>
+        </tr>
+        
+
+        <tr>
+          <td>Jude Bellingham</td>
+          <td>Callum Wilson</td>
+          <td>1</td>
+          <td>0.63</td>
+        </tr>
+        
+
+        <tr>
+          <td>Callum Wilson</td>
+          <td>Jack Grealish</td>
+          <td>1</td>
+          <td>0.63</td>
+        </tr>
+        
+
+        <tr>
+          <td>Jesse Lingard</td>
+          <td>Kieran Trippier</td>
+          <td>1</td>
+          <td>0.63</td>
+        </tr>
+        
+
+        <tr>
+          <td>Kieran Trippier</td>
+          <td>Harry Kane</td>
+          <td>1</td>
+          <td>0.63</td>
+        </tr>
+        
+
+        <tr>
+          <td>Jude Bellingham</td>
+          <td>Philip Foden</td>
+          <td>1</td>
+          <td>0.61</td>
+        </tr>
+        
+
+        <tr>
+          <td>Harry Maguire</td>
+          <td>Jamie Vardy</td>
+          <td>1</td>
+          <td>0.46</td>
+        </tr>
+        
+
+        <tr>
+          <td>Jamie Vardy</td>
+          <td>Marcus Rashford</td>
+          <td>1</td>
+          <td>0.46</td>
+        </tr>
+        
+
+        <tr>
+          <td>Philip Foden</td>
+          <td>Harry Maguire</td>
+          <td>1</td>
+          <td>0.46</td>
+        </tr>
+        
+
+        <tr>
+          <td>Harry Maguire</td>
+          <td>John Stones</td>
+          <td>1</td>
+          <td>0.46</td>
+        </tr>
+        
+
+        <tr>
+          <td>Eric Dier</td>
+          <td>Marcus Rashford</td>
+          <td>1</td>
+          <td>0.45</td>
+        </tr>
+        
+
+        <tr>
+          <td>Marcus Rashford</td>
+          <td>Eric Dier</td>
+          <td>1</td>
+          <td>0.45</td>
+        </tr>
+        
+
+        <tr>
+          <td>Harry Kane</td>
+          <td>Philip Foden</td>
+          <td>1</td>
+          <td>0.44</td>
+        </tr>
+        
+
+        <tr>
+          <td>Jordan Pickford</td>
+          <td>Harry Kane</td>
+          <td>1</td>
+          <td>0.41</td>
+        </tr>
+        </tbody>
+        </table>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,251 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mexico Vulnerability Summary</title>
+  <style>
+:root {
+  color-scheme: light;
+  --ink: #14213d;
+  --muted: #667085;
+  --border: #d8dee8;
+  --panel: #ffffff;
+  --bg: #f5f7fb;
+  --accent: #00a676;
+  --danger: #e84a5f;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+}
+.page {
+  width: min(1320px, calc(100vw - 48px));
+  margin: 32px auto;
+}
+header { margin-bottom: 24px; }
+.eyebrow {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+h1 { margin: 0; font-size: 32px; line-height: 1.15; }
+h2 { margin-top: 0; font-size: 18px; }
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 380px;
+  gap: 20px;
+  align-items: start;
+}
+.pitch {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #a7c5b8;
+  background: #dff3e7;
+}
+.grass { fill: #dff3e7; }
+.line, .box, .line-fill {
+  fill: none;
+  stroke: rgba(20, 33, 61, 0.32);
+  stroke-width: 4;
+}
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(20, 33, 61, 0.06);
+}
+.card {
+  border-top: 1px solid var(--border);
+  padding: 14px 0;
+}
+.card:first-of-type { border-top: 0; }
+.tag {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+.card h3 { margin: 0 0 8px; font-size: 16px; }
+.card p { margin: 0 0 8px; color: #344054; }
+small { color: var(--muted); }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+th, td {
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+  padding: 12px;
+}
+th {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.metric {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+.metric span { display: block; color: var(--muted); margin-bottom: 8px; }
+.metric strong { font-size: 28px; }
+.legend {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 14px;
+}
+.key {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+.key.england { background: var(--accent); }
+.key.mexico { background: var(--danger); }
+.network-panel { min-height: 520px; }
+.pattern-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px 22px;
+}
+.pattern-grid .card {
+  border-top: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px;
+}
+.network {
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  display: block;
+}
+.node-label {
+  font-size: 13px;
+  fill: var(--ink);
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 4px;
+  stroke-linejoin: round;
+}
+@media (max-width: 980px) {
+  .layout { grid-template-columns: 1fr; }
+  .page { width: min(100vw - 28px, 1320px); margin: 20px auto; }
+  h1 { font-size: 24px; }
+}
+</style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="eyebrow">Opponent Vulnerabilities</p>
+      <h1>Where opponents create value against Mexico</h1>
+    </header>
+    <section class="panel">
+      <table>
+        <thead>
+          <tr>
+            <th>Lane</th>
+            <th>Depth</th>
+            <th>Shots</th>
+            <th>Total xG</th>
+            <th>Avg xG</th>
+            <th>Examples</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>central lane</td>
+          <td>box / six-yard zone</td>
+          <td>50</td>
+          <td>10.15</td>
+          <td>0.2</td>
+          <td>Poland: Robert Lewandowski min 6 xG 0.06<br>Poland: Robert Lewandowski min 57 xG 0.78<br>Poland: Jakub Kamiński min 57 xG 0.10<br>Poland: Jakub Piotr Kiwior min 81 xG 0.12<br>Saudi Arabia: Ali Al Hassan min 50 xG 0.10<br>Saudi Arabia: Sultan Abdullah Salim Al Ghannam min 49 xG 0.21<br>Saudi Arabia: Sultan Abdullah Salim Al Ghannam min 54 xG 0.03<br>Saudi Arabia: Abdulelah Al Amri min 61 xG 0.04</td>
+        </tr>
+        
+
+        <tr>
+          <td>central lane</td>
+          <td>edge or inside box</td>
+          <td>28</td>
+          <td>1.13</td>
+          <td>0.04</td>
+          <td>Poland: Grzegorz Krychowiak min 95 xG 0.02<br>Saudi Arabia: Saleh Khalid Al Shehri min 2 xG 0.02<br>Saudi Arabia: Mohammed Kanoo min 12 xG 0.07<br>Saudi Arabia: Salem Mohammed Al Dawsari min 80 xG 0.02<br>Argentina: Lionel Andrés Messi Cuccittini min 50 xG 0.07<br>Argentina: Lionel Andrés Messi Cuccittini min 63 xG 0.03<br>Argentina: Nahuel Molina Lucero min 69 xG 0.05<br>Germany: Julian Draxler min 15 xG 0.02</td>
+        </tr>
+        
+
+        <tr>
+          <td>left channel</td>
+          <td>box / six-yard zone</td>
+          <td>4</td>
+          <td>0.18</td>
+          <td>0.04</td>
+          <td>Poland: Jakub Kamiński min 93 xG 0.05<br>Argentina: Enzo Fernandez min 86 xG 0.04<br>Germany: Julian Draxler min 54 xG 0.05<br>Sweden: Ludwig Augustinsson min 53 xG 0.04</td>
+        </tr>
+        
+
+        <tr>
+          <td>right channel</td>
+          <td>box / six-yard zone</td>
+          <td>3</td>
+          <td>0.12</td>
+          <td>0.04</td>
+          <td>Saudi Arabia: Mohammed Kanoo min 7 xG 0.05<br>Germany: Timo Werner min 2 xG 0.05<br>Brazil: Willian Borges da Silva min 62 xG 0.03</td>
+        </tr>
+        
+
+        <tr>
+          <td>right channel</td>
+          <td>edge or inside box</td>
+          <td>4</td>
+          <td>0.1</td>
+          <td>0.03</td>
+          <td>South Korea: Heung-Min Son min 92 xG 0.02<br>Brazil: Neymar da Silva Santos Junior min 55 xG 0.03<br>Brazil: Willian Borges da Silva min 74 xG 0.03<br>Sweden: Emil Peter Forsberg min 14 xG 0.02</td>
+        </tr>
+        
+
+        <tr>
+          <td>central lane</td>
+          <td>outside box</td>
+          <td>1</td>
+          <td>0.03</td>
+          <td>0.03</td>
+          <td>South Korea: Heung-Min Son min 30 xG 0.03</td>
+        </tr>
+        
+
+        <tr>
+          <td>left channel</td>
+          <td>edge or inside box</td>
+          <td>1</td>
+          <td>0.01</td>
+          <td>0.01</td>
+          <td>Saudi Arabia: Firas Tariq Nasser Al Albirakan min 66 xG 0.01</td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

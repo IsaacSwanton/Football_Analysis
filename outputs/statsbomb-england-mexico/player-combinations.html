@@ -1,0 +1,414 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Player Combination Map</title>
+  <style>
+:root {
+  color-scheme: light;
+  --ink: #14213d;
+  --muted: #667085;
+  --border: #d8dee8;
+  --panel: #ffffff;
+  --bg: #f5f7fb;
+  --accent: #00a676;
+  --danger: #e84a5f;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+}
+.page {
+  width: min(1320px, calc(100vw - 48px));
+  margin: 32px auto;
+}
+header { margin-bottom: 24px; }
+.eyebrow {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+h1 { margin: 0; font-size: 32px; line-height: 1.15; }
+h2 { margin-top: 0; font-size: 18px; }
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 380px;
+  gap: 20px;
+  align-items: start;
+}
+.pitch {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #a7c5b8;
+  background: #dff3e7;
+}
+.grass { fill: #dff3e7; }
+.line, .box, .line-fill {
+  fill: none;
+  stroke: rgba(20, 33, 61, 0.32);
+  stroke-width: 4;
+}
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 18px;
+  box-shadow: 0 10px 30px rgba(20, 33, 61, 0.06);
+}
+.card {
+  border-top: 1px solid var(--border);
+  padding: 14px 0;
+}
+.card:first-of-type { border-top: 0; }
+.tag {
+  margin: 0 0 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+.card h3 { margin: 0 0 8px; font-size: 16px; }
+.card p { margin: 0 0 8px; color: #344054; }
+small { color: var(--muted); }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+th, td {
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+  padding: 12px;
+}
+th {
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.metric {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+}
+.metric span { display: block; color: var(--muted); margin-bottom: 8px; }
+.metric strong { font-size: 28px; }
+.legend {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 14px;
+}
+.key {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+.key.england { background: var(--accent); }
+.key.mexico { background: var(--danger); }
+.network-panel { min-height: 520px; }
+.pattern-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 12px 22px;
+}
+.pattern-grid .card {
+  border-top: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 14px;
+}
+.network {
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  display: block;
+}
+.node-label {
+  font-size: 13px;
+  fill: var(--ink);
+  paint-order: stroke;
+  stroke: #fff;
+  stroke-width: 4px;
+  stroke-linejoin: round;
+}
+@media (max-width: 980px) {
+  .layout { grid-template-columns: 1fr; }
+  .page { width: min(100vw - 28px, 1320px); margin: 20px auto; }
+  h1 { font-size: 24px; }
+}
+</style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <p class="eyebrow">Player Combination Map</p>
+      <h1>England chance chains and Mexico conceded chains</h1>
+    </header>
+    <section class="panel">
+      <table>
+        <thead>
+          <tr><th>Type</th><th>Team</th><th>Chain</th><th>Shooter</th><th>xG</th><th>Min</th></tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Mexico conceded</td>
+          <td>Brazil</td>
+          <td>Neymar da Silva Santos Junior -&gt; Willian Borges da Silva -&gt; Neymar da Silva Santos Junior</td>
+          <td>Neymar da Silva Santos Junior</td>
+          <td>0.93</td>
+          <td>50</td>
+        </tr>
+        
+
+        <tr>
+          <td>Mexico conceded</td>
+          <td>Brazil</td>
+          <td>Fernando Luiz Roza -&gt; Neymar da Silva Santos Junior -&gt; Roberto Firmino Barbosa de Oliveira</td>
+          <td>Roberto Firmino Barbosa de Oliveira</td>
+          <td>0.92</td>
+          <td>87</td>
+        </tr>
+        
+
+        <tr>
+          <td>England attack</td>
+          <td>England</td>
+          <td>Jude Bellingham -&gt; Callum Wilson -&gt; Jack Grealish</td>
+          <td>Jack Grealish</td>
+          <td>0.63</td>
+          <td>89</td>
+        </tr>
+        
+
+        <tr>
+          <td>England attack</td>
+          <td>England</td>
+          <td>Jesse Lingard -&gt; Kieran Trippier -&gt; Harry Kane</td>
+          <td>Harry Kane</td>
+          <td>0.63</td>
+          <td>15</td>
+        </tr>
+        
+
+        <tr>
+          <td>England attack</td>
+          <td>England</td>
+          <td>Callum Wilson -&gt; Jude Bellingham -&gt; Philip Foden</td>
+          <td>Philip Foden</td>
+          <td>0.61</td>
+          <td>76</td>
+        </tr>
+        
+
+        <tr>
+          <td>England attack</td>
+          <td>England</td>
+          <td>Jordan Brian Henderson -&gt; Harry Kane -&gt; Raheem Sterling -&gt; John Stones</td>
+          <td>John Stones</td>
+          <td>0.57</td>
+          <td>39</td>
+        </tr>
+        
+
+        <tr>
+          <td>Mexico conceded</td>
+          <td>Germany</td>
+          <td>Julian Brandt -&gt; Marco Reus -&gt; Mario Gómez García</td>
+          <td>Mario Gómez García</td>
+          <td>0.55</td>
+          <td>88</td>
+        </tr>
+        
+
+        <tr>
+          <td>Mexico conceded</td>
+          <td>Saudi Arabia</td>
+          <td>Firas Tariq Nasser Al Albirakan -&gt; Salem Mohammed Al Dawsari -&gt; Hattan Babhir -&gt; Salem Mohammed Al Dawsari</td>
+          <td>Salem Mohammed Al Dawsari</td>
+          <td>0.52</td>
+          <td>94</td>
+        </tr>
+        
+
+        <tr>
+          <td>England attack</td>
+          <td>England</td>
+          <td>Harry Maguire -&gt; Jamie Vardy -&gt; Marcus Rashford</td>
+          <td>Marcus Rashford</td>
+          <td>0.46</td>
+          <td>65</td>
+        </tr>
+        
+
+        <tr>
+          <td>England attack</td>
+          <td>England</td>
+          <td>Philip Foden -&gt; Harry Maguire -&gt; John Stones</td>
+          <td>John Stones</td>
+          <td>0.46</td>
+          <td>90</td>
+        </tr>
+        
+
+        <tr>
+          <td>England attack</td>
+          <td>England</td>
+          <td>Eric Dier -&gt; Marcus Rashford -&gt; Eric Dier</td>
+          <td>Eric Dier</td>
+          <td>0.45</td>
+          <td>69</td>
+        </tr>
+        
+
+        <tr>
+          <td>England attack</td>
+          <td>England</td>
+          <td>Harry Kane -&gt; Philip Foden</td>
+          <td>Philip Foden</td>
+          <td>0.44</td>
+          <td>50</td>
+        </tr>
+        
+
+        <tr>
+          <td>England attack</td>
+          <td>England</td>
+          <td>Bamidele Alli -&gt; Raheem Sterling -&gt; John Stones</td>
+          <td>John Stones</td>
+          <td>0.44</td>
+          <td>38</td>
+        </tr>
+        
+
+        <tr>
+          <td>England attack</td>
+          <td>England</td>
+          <td>Jordan Brian Henderson -&gt; Harry Kane -&gt; Raheem Sterling</td>
+          <td>Raheem Sterling</td>
+          <td>0.43</td>
+          <td>39</td>
+        </tr>
+        
+
+        <tr>
+          <td>England attack</td>
+          <td>England</td>
+          <td>Jordan Pickford -&gt; Harry Kane -&gt; Marcus Rashford</td>
+          <td>Marcus Rashford</td>
+          <td>0.41</td>
+          <td>70</td>
+        </tr>
+        
+
+        <tr>
+          <td>England attack</td>
+          <td>England</td>
+          <td>Kieran Trippier -&gt; Harry Maguire -&gt; Bamidele Alli -&gt; Raheem Sterling</td>
+          <td>Raheem Sterling</td>
+          <td>0.40</td>
+          <td>38</td>
+        </tr>
+        
+
+        <tr>
+          <td>England attack</td>
+          <td>England</td>
+          <td>Kieran Trippier -&gt; Harry Maguire -&gt; Harry Kane</td>
+          <td>Harry Kane</td>
+          <td>0.35</td>
+          <td>90</td>
+        </tr>
+        
+
+        <tr>
+          <td>Mexico conceded</td>
+          <td>Sweden</td>
+          <td>Marcus Berg -&gt; Sebastian Larsson -&gt; Marcus Berg -&gt; Viktor Claesson</td>
+          <td>Viktor Claesson</td>
+          <td>0.34</td>
+          <td>49</td>
+        </tr>
+        
+
+        <tr>
+          <td>Mexico conceded</td>
+          <td>Sweden</td>
+          <td>Ludwig Augustinsson -&gt; Andreas Granqvist -&gt; Mikael Lustig -&gt; Marcus Berg</td>
+          <td>Marcus Berg</td>
+          <td>0.32</td>
+          <td>30</td>
+        </tr>
+        
+
+        <tr>
+          <td>Mexico conceded</td>
+          <td>Sweden</td>
+          <td>Ludwig Augustinsson -&gt; Andreas Granqvist -&gt; Marcus Berg</td>
+          <td>Marcus Berg</td>
+          <td>0.32</td>
+          <td>11</td>
+        </tr>
+        
+
+        <tr>
+          <td>Mexico conceded</td>
+          <td>Germany</td>
+          <td>Mesut Özil -&gt; Mats Hummels -&gt; Timo Werner</td>
+          <td>Timo Werner</td>
+          <td>0.30</td>
+          <td>67</td>
+        </tr>
+        
+
+        <tr>
+          <td>Mexico conceded</td>
+          <td>Brazil</td>
+          <td>Fernando Luiz Roza -&gt; Neymar da Silva Santos Junior</td>
+          <td>Neymar da Silva Santos Junior</td>
+          <td>0.29</td>
+          <td>87</td>
+        </tr>
+        
+
+        <tr>
+          <td>England attack</td>
+          <td>England</td>
+          <td>Joe Allen -&gt; Kieffer Roberto Francisco Moore -&gt; Declan Rice -&gt; Harry Kane -&gt; Marcus Rashford</td>
+          <td>Marcus Rashford</td>
+          <td>0.28</td>
+          <td>9</td>
+        </tr>
+        
+
+        <tr>
+          <td>England attack</td>
+          <td>England</td>
+          <td>Callum Wilson -&gt; Jude Bellingham</td>
+          <td>Jude Bellingham</td>
+          <td>0.25</td>
+          <td>76</td>
+        </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

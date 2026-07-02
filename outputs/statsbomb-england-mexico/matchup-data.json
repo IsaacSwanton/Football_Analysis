@@ -1,0 +1,5435 @@
+{
+  "combos": [
+    {
+      "category": "mexico_conceded_combo",
+      "source_team": "Brazil",
+      "match_id": "7583",
+      "shot_minute": 50,
+      "shooter": "Neymar da Silva Santos Junior",
+      "xg": 0.9257403,
+      "sequence": [
+        {
+          "receiver": "Willian Borges da Silva",
+          "end_x": 96.0,
+          "end_y": 32.0,
+          "x": 96.0,
+          "y": 42.0,
+          "index": 1905,
+          "type": "Pass",
+          "player": "Neymar da Silva Santos Junior"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 96.0,
+          "y": 32.0,
+          "index": 1906,
+          "type": "Ball Receipt*",
+          "player": "Willian Borges da Silva"
+        },
+        {
+          "receiver": null,
+          "end_x": 104.0,
+          "end_y": 31.0,
+          "x": 96.0,
+          "y": 32.0,
+          "index": 1907,
+          "type": "Carry",
+          "player": "Willian Borges da Silva"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 104.0,
+          "y": 31.0,
+          "index": 1909,
+          "type": "Dribble",
+          "player": "Willian Borges da Silva"
+        },
+        {
+          "receiver": null,
+          "end_x": 114.0,
+          "end_y": 28.0,
+          "x": 104.0,
+          "y": 31.0,
+          "index": 1910,
+          "type": "Carry",
+          "player": "Willian Borges da Silva"
+        },
+        {
+          "receiver": "Neymar da Silva Santos Junior",
+          "end_x": 118.0,
+          "end_y": 42.0,
+          "x": 114.0,
+          "y": 28.0,
+          "index": 1911,
+          "type": "Pass",
+          "player": "Willian Borges da Silva"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 118.0,
+          "y": 42.0,
+          "index": 1912,
+          "type": "Ball Receipt*",
+          "player": "Neymar da Silva Santos Junior"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 119.0,
+          "y": 43.0,
+          "index": 1913,
+          "type": "Shot",
+          "player": "Neymar da Silva Santos Junior"
+        }
+      ]
+    },
+    {
+      "category": "mexico_conceded_combo",
+      "source_team": "Brazil",
+      "match_id": "7583",
+      "shot_minute": 87,
+      "shooter": "Roberto Firmino Barbosa de Oliveira",
+      "xg": 0.9220455,
+      "sequence": [
+        {
+          "receiver": null,
+          "end_x": 67.0,
+          "end_y": 20.0,
+          "x": 52.0,
+          "y": 37.0,
+          "index": 3092,
+          "type": "Carry",
+          "player": "Fernando Luiz Roza"
+        },
+        {
+          "receiver": "Neymar da Silva Santos Junior",
+          "end_x": 93.0,
+          "end_y": 17.0,
+          "x": 67.0,
+          "y": 20.0,
+          "index": 3093,
+          "type": "Pass",
+          "player": "Fernando Luiz Roza"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 93.0,
+          "y": 17.0,
+          "index": 3094,
+          "type": "Ball Receipt*",
+          "player": "Neymar da Silva Santos Junior"
+        },
+        {
+          "receiver": null,
+          "end_x": 112.0,
+          "end_y": 33.0,
+          "x": 93.0,
+          "y": 17.0,
+          "index": 3095,
+          "type": "Carry",
+          "player": "Neymar da Silva Santos Junior"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 112.0,
+          "y": 33.0,
+          "index": 3097,
+          "type": "Shot",
+          "player": "Neymar da Silva Santos Junior"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 119.0,
+          "y": 43.0,
+          "index": 3100,
+          "type": "Shot",
+          "player": "Roberto Firmino Barbosa de Oliveira"
+        }
+      ]
+    },
+    {
+      "category": "england_attacking_combo",
+      "source_team": "England",
+      "match_id": "3857271",
+      "shot_minute": 89,
+      "shooter": "Jack Grealish",
+      "xg": 0.6262809,
+      "sequence": [
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 51.1,
+          "y": 52.3,
+          "index": 3239,
+          "type": "Ball Receipt*",
+          "player": "Jude Bellingham"
+        },
+        {
+          "receiver": null,
+          "end_x": 51.3,
+          "end_y": 53.0,
+          "x": 51.1,
+          "y": 52.3,
+          "index": 3240,
+          "type": "Carry",
+          "player": "Jude Bellingham"
+        },
+        {
+          "receiver": "Callum Wilson",
+          "end_x": 98.0,
+          "end_y": 60.4,
+          "x": 51.3,
+          "y": 53.0,
+          "index": 3241,
+          "type": "Pass",
+          "player": "Jude Bellingham"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 98.0,
+          "y": 60.4,
+          "index": 3242,
+          "type": "Ball Receipt*",
+          "player": "Callum Wilson"
+        },
+        {
+          "receiver": null,
+          "end_x": 113.1,
+          "end_y": 53.0,
+          "x": 98.0,
+          "y": 60.4,
+          "index": 3243,
+          "type": "Carry",
+          "player": "Callum Wilson"
+        },
+        {
+          "receiver": "Jack Grealish",
+          "end_x": 112.0,
+          "end_y": 39.9,
+          "x": 113.1,
+          "y": 53.0,
+          "index": 3244,
+          "type": "Pass",
+          "player": "Callum Wilson"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 112.0,
+          "y": 39.9,
+          "index": 3245,
+          "type": "Ball Receipt*",
+          "player": "Jack Grealish"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 112.0,
+          "y": 39.9,
+          "index": 3246,
+          "type": "Shot",
+          "player": "Jack Grealish"
+        }
+      ]
+    },
+    {
+      "category": "england_attacking_combo",
+      "source_team": "England",
+      "match_id": "7585",
+      "shot_minute": 15,
+      "shooter": "Harry Kane",
+      "xg": 0.6250739,
+      "sequence": [
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 108.0,
+          "y": 71.0,
+          "index": 541,
+          "type": "Ball Receipt*",
+          "player": "Jesse Lingard"
+        },
+        {
+          "receiver": null,
+          "end_x": 108.0,
+          "end_y": 74.0,
+          "x": 108.0,
+          "y": 71.0,
+          "index": 542,
+          "type": "Carry",
+          "player": "Jesse Lingard"
+        },
+        {
+          "receiver": "Kieran Trippier",
+          "end_x": 118.0,
+          "end_y": 64.0,
+          "x": 108.0,
+          "y": 74.0,
+          "index": 543,
+          "type": "Pass",
+          "player": "Jesse Lingard"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 118.0,
+          "y": 64.0,
+          "index": 545,
+          "type": "Ball Receipt*",
+          "player": "Kieran Trippier"
+        },
+        {
+          "receiver": "Harry Kane",
+          "end_x": 118.0,
+          "end_y": 35.0,
+          "x": 117.0,
+          "y": 63.0,
+          "index": 546,
+          "type": "Pass",
+          "player": "Kieran Trippier"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 118.0,
+          "y": 35.0,
+          "index": 548,
+          "type": "Ball Receipt*",
+          "player": "Harry Kane"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 119.0,
+          "y": 36.0,
+          "index": 549,
+          "type": "Shot",
+          "player": "Harry Kane"
+        }
+      ]
+    },
+    {
+      "category": "england_attacking_combo",
+      "source_team": "England",
+      "match_id": "3857261",
+      "shot_minute": 76,
+      "shooter": "Philip Foden",
+      "xg": 0.6100251,
+      "sequence": [
+        {
+          "receiver": "Jude Bellingham",
+          "end_x": 104.3,
+          "end_y": 32.8,
+          "x": 92.9,
+          "y": 42.6,
+          "index": 2697,
+          "type": "Pass",
+          "player": "Callum Wilson"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 104.3,
+          "y": 32.8,
+          "index": 2698,
+          "type": "Ball Receipt*",
+          "player": "Jude Bellingham"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 104.3,
+          "y": 32.8,
+          "index": 2699,
+          "type": "Shot",
+          "player": "Jude Bellingham"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 112.7,
+          "y": 29.3,
+          "index": 2702,
+          "type": "Shot",
+          "player": "Jude Bellingham"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 116.1,
+          "y": 39.5,
+          "index": 2705,
+          "type": "Shot",
+          "player": "Philip Foden"
+        }
+      ]
+    },
+    {
+      "category": "england_attacking_combo",
+      "source_team": "England",
+      "match_id": "7554",
+      "shot_minute": 39,
+      "shooter": "John Stones",
+      "xg": 0.5670492,
+      "sequence": [
+        {
+          "receiver": "Harry Kane",
+          "end_x": 111.0,
+          "end_y": 52.0,
+          "x": 95.0,
+          "y": 31.0,
+          "index": 1269,
+          "type": "Pass",
+          "player": "Jordan Brian Henderson"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 111.0,
+          "y": 52.0,
+          "index": 1270,
+          "type": "Ball Receipt*",
+          "player": "Harry Kane"
+        },
+        {
+          "receiver": "Raheem Sterling",
+          "end_x": 115.0,
+          "end_y": 40.0,
+          "x": 111.0,
+          "y": 52.0,
+          "index": 1271,
+          "type": "Pass",
+          "player": "Harry Kane"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 115.0,
+          "y": 40.0,
+          "index": 1273,
+          "type": "Ball Receipt*",
+          "player": "Raheem Sterling"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 115.0,
+          "y": 40.0,
+          "index": 1274,
+          "type": "Shot",
+          "player": "Raheem Sterling"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 118.0,
+          "y": 36.0,
+          "index": 1277,
+          "type": "Shot",
+          "player": "John Stones"
+        }
+      ]
+    },
+    {
+      "category": "mexico_conceded_combo",
+      "source_team": "Germany",
+      "match_id": "7534",
+      "shot_minute": 88,
+      "shooter": "Mario G\u00f3mez Garc\u00eda",
+      "xg": 0.55386275,
+      "sequence": [
+        {
+          "receiver": "Marco Reus",
+          "end_x": 108.0,
+          "end_y": 22.0,
+          "x": 99.0,
+          "y": 15.0,
+          "index": 3549,
+          "type": "Pass",
+          "player": "Julian Brandt"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 108.0,
+          "y": 22.0,
+          "index": 3550,
+          "type": "Ball Receipt*",
+          "player": "Marco Reus"
+        },
+        {
+          "receiver": null,
+          "end_x": 113.0,
+          "end_y": 28.0,
+          "x": 108.0,
+          "y": 22.0,
+          "index": 3551,
+          "type": "Carry",
+          "player": "Marco Reus"
+        },
+        {
+          "receiver": "Mario G\u00f3mez Garc\u00eda",
+          "end_x": 117.0,
+          "end_y": 39.0,
+          "x": 113.0,
+          "y": 28.0,
+          "index": 3553,
+          "type": "Pass",
+          "player": "Marco Reus"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 117.0,
+          "y": 39.0,
+          "index": 3554,
+          "type": "Ball Receipt*",
+          "player": "Mario G\u00f3mez Garc\u00eda"
+        },
+        {
+          "receiver": null,
+          "end_x": 117.0,
+          "end_y": 39.0,
+          "x": 117.0,
+          "y": 39.0,
+          "index": 3555,
+          "type": "Carry",
+          "player": "Mario G\u00f3mez Garc\u00eda"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 117.0,
+          "y": 39.0,
+          "index": 3557,
+          "type": "Shot",
+          "player": "Mario G\u00f3mez Garc\u00eda"
+        }
+      ]
+    },
+    {
+      "category": "mexico_conceded_combo",
+      "source_team": "Saudi Arabia",
+      "match_id": "3857260",
+      "shot_minute": 94,
+      "shooter": "Salem Mohammed Al Dawsari",
+      "xg": 0.51574713,
+      "sequence": [
+        {
+          "receiver": "Salem Mohammed Al Dawsari",
+          "end_x": 98.7,
+          "end_y": 62.8,
+          "x": 100.8,
+          "y": 70.5,
+          "index": 2825,
+          "type": "Pass",
+          "player": "Firas Tariq Nasser Al Albirakan"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 98.7,
+          "y": 62.8,
+          "index": 2826,
+          "type": "Ball Receipt*",
+          "player": "Salem Mohammed Al Dawsari"
+        },
+        {
+          "receiver": null,
+          "end_x": 98.6,
+          "end_y": 54.6,
+          "x": 98.7,
+          "y": 62.8,
+          "index": 2827,
+          "type": "Carry",
+          "player": "Salem Mohammed Al Dawsari"
+        },
+        {
+          "receiver": "Hattan Babhir",
+          "end_x": 101.2,
+          "end_y": 44.0,
+          "x": 98.6,
+          "y": 54.6,
+          "index": 2828,
+          "type": "Pass",
+          "player": "Salem Mohammed Al Dawsari"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 101.2,
+          "y": 44.0,
+          "index": 2829,
+          "type": "Ball Receipt*",
+          "player": "Hattan Babhir"
+        },
+        {
+          "receiver": "Salem Mohammed Al Dawsari",
+          "end_x": 105.0,
+          "end_y": 48.0,
+          "x": 101.2,
+          "y": 44.0,
+          "index": 2830,
+          "type": "Pass",
+          "player": "Hattan Babhir"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 105.0,
+          "y": 48.0,
+          "index": 2831,
+          "type": "Ball Receipt*",
+          "player": "Salem Mohammed Al Dawsari"
+        },
+        {
+          "receiver": null,
+          "end_x": 110.9,
+          "end_y": 45.2,
+          "x": 105.0,
+          "y": 48.0,
+          "index": 2832,
+          "type": "Carry",
+          "player": "Salem Mohammed Al Dawsari"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 110.9,
+          "y": 45.2,
+          "index": 2833,
+          "type": "Shot",
+          "player": "Salem Mohammed Al Dawsari"
+        }
+      ]
+    },
+    {
+      "category": "england_attacking_combo",
+      "source_team": "England",
+      "match_id": "7570",
+      "shot_minute": 65,
+      "shooter": "Marcus Rashford",
+      "xg": 0.46036732,
+      "sequence": [
+        {
+          "receiver": null,
+          "end_x": 48.0,
+          "end_y": 22.0,
+          "x": 48.0,
+          "y": 20.0,
+          "index": 2821,
+          "type": "Carry",
+          "player": "Harry Maguire"
+        },
+        {
+          "receiver": "Jamie Vardy",
+          "end_x": 76.0,
+          "end_y": 41.0,
+          "x": 48.0,
+          "y": 22.0,
+          "index": 2822,
+          "type": "Pass",
+          "player": "Harry Maguire"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 76.0,
+          "y": 41.0,
+          "index": 2824,
+          "type": "Ball Receipt*",
+          "player": "Jamie Vardy"
+        },
+        {
+          "receiver": null,
+          "end_x": 76.0,
+          "end_y": 34.0,
+          "x": 76.0,
+          "y": 41.0,
+          "index": 2825,
+          "type": "Carry",
+          "player": "Jamie Vardy"
+        },
+        {
+          "receiver": "Marcus Rashford",
+          "end_x": 94.0,
+          "end_y": 34.0,
+          "x": 76.0,
+          "y": 34.0,
+          "index": 2826,
+          "type": "Pass",
+          "player": "Jamie Vardy"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 94.0,
+          "y": 34.0,
+          "index": 2827,
+          "type": "Ball Receipt*",
+          "player": "Marcus Rashford"
+        },
+        {
+          "receiver": null,
+          "end_x": 104.0,
+          "end_y": 33.0,
+          "x": 94.0,
+          "y": 34.0,
+          "index": 2828,
+          "type": "Carry",
+          "player": "Marcus Rashford"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 104.0,
+          "y": 33.0,
+          "index": 2829,
+          "type": "Shot",
+          "player": "Marcus Rashford"
+        }
+      ]
+    },
+    {
+      "category": "england_attacking_combo",
+      "source_team": "England",
+      "match_id": "3857261",
+      "shot_minute": 90,
+      "shooter": "John Stones",
+      "xg": 0.45507616,
+      "sequence": [
+        {
+          "receiver": "Harry Maguire",
+          "end_x": 111.4,
+          "end_y": 27.7,
+          "x": 120.0,
+          "y": 80.0,
+          "index": 3192,
+          "type": "Pass",
+          "player": "Philip Foden"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 111.4,
+          "y": 27.7,
+          "index": 3193,
+          "type": "Ball Receipt*",
+          "player": "Harry Maguire"
+        },
+        {
+          "receiver": null,
+          "end_x": 113.7,
+          "end_y": 38.2,
+          "x": 111.4,
+          "y": 27.7,
+          "index": 3194,
+          "type": "Pass",
+          "player": "Harry Maguire"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 114.4,
+          "y": 43.9,
+          "index": 3198,
+          "type": "Shot",
+          "player": "John Stones"
+        }
+      ]
+    },
+    {
+      "category": "england_attacking_combo",
+      "source_team": "England",
+      "match_id": "8657",
+      "shot_minute": 69,
+      "shooter": "Eric Dier",
+      "xg": 0.44786552,
+      "sequence": [
+        {
+          "receiver": "Marcus Rashford",
+          "end_x": 98.0,
+          "end_y": 51.0,
+          "x": 88.0,
+          "y": 56.0,
+          "index": 3454,
+          "type": "Pass",
+          "player": "Eric Dier"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 98.0,
+          "y": 51.0,
+          "index": 3455,
+          "type": "Ball Receipt*",
+          "player": "Marcus Rashford"
+        },
+        {
+          "receiver": null,
+          "end_x": 93.0,
+          "end_y": 50.0,
+          "x": 98.0,
+          "y": 51.0,
+          "index": 3456,
+          "type": "Carry",
+          "player": "Marcus Rashford"
+        },
+        {
+          "receiver": "Eric Dier",
+          "end_x": 97.0,
+          "end_y": 57.0,
+          "x": 93.0,
+          "y": 50.0,
+          "index": 3457,
+          "type": "Pass",
+          "player": "Marcus Rashford"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 97.0,
+          "y": 57.0,
+          "index": 3458,
+          "type": "Ball Receipt*",
+          "player": "Eric Dier"
+        },
+        {
+          "receiver": null,
+          "end_x": 112.0,
+          "end_y": 50.0,
+          "x": 97.0,
+          "y": 57.0,
+          "index": 3459,
+          "type": "Carry",
+          "player": "Eric Dier"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 112.0,
+          "y": 50.0,
+          "index": 3460,
+          "type": "Shot",
+          "player": "Eric Dier"
+        }
+      ]
+    },
+    {
+      "category": "england_attacking_combo",
+      "source_team": "England",
+      "match_id": "3857261",
+      "shot_minute": 50,
+      "shooter": "Philip Foden",
+      "xg": 0.44030064,
+      "sequence": [
+        {
+          "receiver": null,
+          "end_x": 115.8,
+          "end_y": 58.9,
+          "x": 102.4,
+          "y": 64.9,
+          "index": 1926,
+          "type": "Carry",
+          "player": "Harry Kane"
+        },
+        {
+          "receiver": "Philip Foden",
+          "end_x": 114.5,
+          "end_y": 34.1,
+          "x": 115.8,
+          "y": 58.9,
+          "index": 1927,
+          "type": "Pass",
+          "player": "Harry Kane"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 114.5,
+          "y": 34.1,
+          "index": 1928,
+          "type": "Ball Receipt*",
+          "player": "Philip Foden"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 114.5,
+          "y": 34.1,
+          "index": 1929,
+          "type": "Shot",
+          "player": "Philip Foden"
+        }
+      ]
+    },
+    {
+      "category": "england_attacking_combo",
+      "source_team": "England",
+      "match_id": "7537",
+      "shot_minute": 38,
+      "shooter": "John Stones",
+      "xg": 0.43713534,
+      "sequence": [
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 117.0,
+          "y": 46.0,
+          "index": 1284,
+          "type": "Ball Receipt*",
+          "player": "Bamidele Alli"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 118.0,
+          "y": 47.0,
+          "index": 1285,
+          "type": "Shot",
+          "player": "Bamidele Alli"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 117.0,
+          "y": 37.0,
+          "index": 1289,
+          "type": "Shot",
+          "player": "Raheem Sterling"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 114.0,
+          "y": 39.0,
+          "index": 1292,
+          "type": "Shot",
+          "player": "John Stones"
+        }
+      ]
+    },
+    {
+      "category": "england_attacking_combo",
+      "source_team": "England",
+      "match_id": "7554",
+      "shot_minute": 39,
+      "shooter": "Raheem Sterling",
+      "xg": 0.43374035,
+      "sequence": [
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 95.0,
+          "y": 31.0,
+          "index": 1267,
+          "type": "Ball Receipt*",
+          "player": "Jordan Brian Henderson"
+        },
+        {
+          "receiver": null,
+          "end_x": 95.0,
+          "end_y": 31.0,
+          "x": 95.0,
+          "y": 31.0,
+          "index": 1268,
+          "type": "Carry",
+          "player": "Jordan Brian Henderson"
+        },
+        {
+          "receiver": "Harry Kane",
+          "end_x": 111.0,
+          "end_y": 52.0,
+          "x": 95.0,
+          "y": 31.0,
+          "index": 1269,
+          "type": "Pass",
+          "player": "Jordan Brian Henderson"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 111.0,
+          "y": 52.0,
+          "index": 1270,
+          "type": "Ball Receipt*",
+          "player": "Harry Kane"
+        },
+        {
+          "receiver": "Raheem Sterling",
+          "end_x": 115.0,
+          "end_y": 40.0,
+          "x": 111.0,
+          "y": 52.0,
+          "index": 1271,
+          "type": "Pass",
+          "player": "Harry Kane"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 115.0,
+          "y": 40.0,
+          "index": 1273,
+          "type": "Ball Receipt*",
+          "player": "Raheem Sterling"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 115.0,
+          "y": 40.0,
+          "index": 1274,
+          "type": "Shot",
+          "player": "Raheem Sterling"
+        }
+      ]
+    },
+    {
+      "category": "england_attacking_combo",
+      "source_team": "England",
+      "match_id": "3857271",
+      "shot_minute": 70,
+      "shooter": "Marcus Rashford",
+      "xg": 0.40810898,
+      "sequence": [
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 7.8,
+          "y": 25.9,
+          "index": 2541,
+          "type": "Ball Receipt*",
+          "player": "Jordan Pickford"
+        },
+        {
+          "receiver": "Harry Kane",
+          "end_x": 79.8,
+          "end_y": 26.6,
+          "x": 7.8,
+          "y": 25.9,
+          "index": 2542,
+          "type": "Pass",
+          "player": "Jordan Pickford"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 79.8,
+          "y": 26.6,
+          "index": 2544,
+          "type": "Ball Receipt*",
+          "player": "Harry Kane"
+        },
+        {
+          "receiver": null,
+          "end_x": 82.9,
+          "end_y": 38.7,
+          "x": 79.8,
+          "y": 26.6,
+          "index": 2545,
+          "type": "Carry",
+          "player": "Harry Kane"
+        },
+        {
+          "receiver": "Marcus Rashford",
+          "end_x": 94.4,
+          "end_y": 55.7,
+          "x": 82.9,
+          "y": 38.7,
+          "index": 2546,
+          "type": "Pass",
+          "player": "Harry Kane"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 94.4,
+          "y": 55.7,
+          "index": 2547,
+          "type": "Ball Receipt*",
+          "player": "Marcus Rashford"
+        },
+        {
+          "receiver": null,
+          "end_x": 109.7,
+          "end_y": 47.7,
+          "x": 94.4,
+          "y": 55.7,
+          "index": 2548,
+          "type": "Carry",
+          "player": "Marcus Rashford"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 109.7,
+          "y": 47.7,
+          "index": 2549,
+          "type": "Shot",
+          "player": "Marcus Rashford"
+        }
+      ]
+    },
+    {
+      "category": "england_attacking_combo",
+      "source_team": "England",
+      "match_id": "7537",
+      "shot_minute": 38,
+      "shooter": "Raheem Sterling",
+      "xg": 0.40336105,
+      "sequence": [
+        {
+          "receiver": "Harry Maguire",
+          "end_x": 117.0,
+          "end_y": 52.0,
+          "x": 114.0,
+          "y": 5.0,
+          "index": 1281,
+          "type": "Pass",
+          "player": "Kieran Trippier"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 117.0,
+          "y": 52.0,
+          "index": 1282,
+          "type": "Ball Receipt*",
+          "player": "Harry Maguire"
+        },
+        {
+          "receiver": "Bamidele Alli",
+          "end_x": 117.0,
+          "end_y": 46.0,
+          "x": 117.0,
+          "y": 52.0,
+          "index": 1283,
+          "type": "Pass",
+          "player": "Harry Maguire"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 117.0,
+          "y": 46.0,
+          "index": 1284,
+          "type": "Ball Receipt*",
+          "player": "Bamidele Alli"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 118.0,
+          "y": 47.0,
+          "index": 1285,
+          "type": "Shot",
+          "player": "Bamidele Alli"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 117.0,
+          "y": 37.0,
+          "index": 1289,
+          "type": "Shot",
+          "player": "Raheem Sterling"
+        }
+      ]
+    },
+    {
+      "category": "england_attacking_combo",
+      "source_team": "England",
+      "match_id": "7537",
+      "shot_minute": 90,
+      "shooter": "Harry Kane",
+      "xg": 0.35426354,
+      "sequence": [
+        {
+          "receiver": "Harry Maguire",
+          "end_x": 112.0,
+          "end_y": 40.0,
+          "x": 119.0,
+          "y": 79.0,
+          "index": 3488,
+          "type": "Pass",
+          "player": "Kieran Trippier"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 112.0,
+          "y": 40.0,
+          "index": 3489,
+          "type": "Ball Receipt*",
+          "player": "Harry Maguire"
+        },
+        {
+          "receiver": "Harry Kane",
+          "end_x": 117.0,
+          "end_y": 36.0,
+          "x": 112.0,
+          "y": 39.0,
+          "index": 3491,
+          "type": "Pass",
+          "player": "Harry Maguire"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 117.0,
+          "y": 36.0,
+          "index": 3492,
+          "type": "Ball Receipt*",
+          "player": "Harry Kane"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 116.0,
+          "y": 36.0,
+          "index": 3493,
+          "type": "Shot",
+          "player": "Harry Kane"
+        }
+      ]
+    },
+    {
+      "category": "mexico_conceded_combo",
+      "source_team": "Sweden",
+      "match_id": "7566",
+      "shot_minute": 49,
+      "shooter": "Viktor Claesson",
+      "xg": 0.33955482,
+      "sequence": [
+        {
+          "receiver": "Sebastian Larsson",
+          "end_x": 83.0,
+          "end_y": 47.0,
+          "x": 96.0,
+          "y": 49.0,
+          "index": 1668,
+          "type": "Pass",
+          "player": "Marcus Berg"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 83.0,
+          "y": 47.0,
+          "index": 1669,
+          "type": "Ball Receipt*",
+          "player": "Sebastian Larsson"
+        },
+        {
+          "receiver": null,
+          "end_x": 88.0,
+          "end_y": 51.0,
+          "x": 83.0,
+          "y": 47.0,
+          "index": 1670,
+          "type": "Carry",
+          "player": "Sebastian Larsson"
+        },
+        {
+          "receiver": "Marcus Berg",
+          "end_x": 100.0,
+          "end_y": 62.0,
+          "x": 88.0,
+          "y": 51.0,
+          "index": 1671,
+          "type": "Pass",
+          "player": "Sebastian Larsson"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 100.0,
+          "y": 62.0,
+          "index": 1672,
+          "type": "Ball Receipt*",
+          "player": "Marcus Berg"
+        },
+        {
+          "receiver": null,
+          "end_x": 102.0,
+          "end_y": 61.0,
+          "x": 100.0,
+          "y": 62.0,
+          "index": 1673,
+          "type": "Carry",
+          "player": "Marcus Berg"
+        },
+        {
+          "receiver": "Viktor Claesson",
+          "end_x": 108.0,
+          "end_y": 39.0,
+          "x": 102.0,
+          "y": 61.0,
+          "index": 1674,
+          "type": "Pass",
+          "player": "Marcus Berg"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 108.0,
+          "y": 39.0,
+          "index": 1675,
+          "type": "Ball Receipt*",
+          "player": "Viktor Claesson"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 109.0,
+          "y": 41.0,
+          "index": 1676,
+          "type": "Shot",
+          "player": "Viktor Claesson"
+        }
+      ]
+    },
+    {
+      "category": "mexico_conceded_combo",
+      "source_team": "Sweden",
+      "match_id": "7566",
+      "shot_minute": 30,
+      "shooter": "Marcus Berg",
+      "xg": 0.32448578,
+      "sequence": [
+        {
+          "receiver": "Andreas Granqvist",
+          "end_x": 113.0,
+          "end_y": 39.0,
+          "x": 120.0,
+          "y": 2.0,
+          "index": 908,
+          "type": "Pass",
+          "player": "Ludwig Augustinsson"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 112.0,
+          "y": 41.0,
+          "index": 909,
+          "type": "Ball Receipt*",
+          "player": "Andreas Granqvist"
+        },
+        {
+          "receiver": "Marcus Berg",
+          "end_x": 115.0,
+          "end_y": 43.0,
+          "x": 115.0,
+          "y": 56.0,
+          "index": 913,
+          "type": "Pass",
+          "player": "Mikael Lustig"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 115.0,
+          "y": 43.0,
+          "index": 914,
+          "type": "Ball Receipt*",
+          "player": "Marcus Berg"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 115.0,
+          "y": 42.0,
+          "index": 915,
+          "type": "Shot",
+          "player": "Marcus Berg"
+        }
+      ]
+    },
+    {
+      "category": "mexico_conceded_combo",
+      "source_team": "Sweden",
+      "match_id": "7566",
+      "shot_minute": 11,
+      "shooter": "Marcus Berg",
+      "xg": 0.31651607,
+      "sequence": [
+        {
+          "receiver": "Andreas Granqvist",
+          "end_x": 114.0,
+          "end_y": 34.0,
+          "x": 119.0,
+          "y": 80.0,
+          "index": 313,
+          "type": "Pass",
+          "player": "Ludwig Augustinsson"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 114.0,
+          "y": 34.0,
+          "index": 314,
+          "type": "Ball Receipt*",
+          "player": "Andreas Granqvist"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 112.0,
+          "y": 36.0,
+          "index": 316,
+          "type": "Shot",
+          "player": "Andreas Granqvist"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 116.0,
+          "y": 36.0,
+          "index": 319,
+          "type": "Shot",
+          "player": "Marcus Berg"
+        }
+      ]
+    },
+    {
+      "category": "mexico_conceded_combo",
+      "source_team": "Germany",
+      "match_id": "7534",
+      "shot_minute": 67,
+      "shooter": "Timo Werner",
+      "xg": 0.3045737,
+      "sequence": [
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 102.0,
+          "y": 72.0,
+          "index": 2713,
+          "type": "Ball Receipt*",
+          "player": "Mesut \u00d6zil"
+        },
+        {
+          "receiver": null,
+          "end_x": 100.0,
+          "end_y": 73.0,
+          "x": 102.0,
+          "y": 72.0,
+          "index": 2714,
+          "type": "Carry",
+          "player": "Mesut \u00d6zil"
+        },
+        {
+          "receiver": "Mats Hummels",
+          "end_x": 111.0,
+          "end_y": 41.0,
+          "x": 100.0,
+          "y": 73.0,
+          "index": 2715,
+          "type": "Pass",
+          "player": "Mesut \u00d6zil"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 111.0,
+          "y": 41.0,
+          "index": 2716,
+          "type": "Ball Receipt*",
+          "player": "Mats Hummels"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 114.0,
+          "y": 34.0,
+          "index": 2721,
+          "type": "Shot",
+          "player": "Timo Werner"
+        }
+      ]
+    },
+    {
+      "category": "mexico_conceded_combo",
+      "source_team": "Brazil",
+      "match_id": "7583",
+      "shot_minute": 87,
+      "shooter": "Neymar da Silva Santos Junior",
+      "xg": 0.28769356,
+      "sequence": [
+        {
+          "receiver": null,
+          "end_x": 67.0,
+          "end_y": 20.0,
+          "x": 52.0,
+          "y": 37.0,
+          "index": 3092,
+          "type": "Carry",
+          "player": "Fernando Luiz Roza"
+        },
+        {
+          "receiver": "Neymar da Silva Santos Junior",
+          "end_x": 93.0,
+          "end_y": 17.0,
+          "x": 67.0,
+          "y": 20.0,
+          "index": 3093,
+          "type": "Pass",
+          "player": "Fernando Luiz Roza"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 93.0,
+          "y": 17.0,
+          "index": 3094,
+          "type": "Ball Receipt*",
+          "player": "Neymar da Silva Santos Junior"
+        },
+        {
+          "receiver": null,
+          "end_x": 112.0,
+          "end_y": 33.0,
+          "x": 93.0,
+          "y": 17.0,
+          "index": 3095,
+          "type": "Carry",
+          "player": "Neymar da Silva Santos Junior"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 112.0,
+          "y": 33.0,
+          "index": 3097,
+          "type": "Shot",
+          "player": "Neymar da Silva Santos Junior"
+        }
+      ]
+    },
+    {
+      "category": "england_attacking_combo",
+      "source_team": "England",
+      "match_id": "3857261",
+      "shot_minute": 9,
+      "shooter": "Marcus Rashford",
+      "xg": 0.28441095,
+      "sequence": [
+        {
+          "receiver": "Kieffer Roberto Francisco Moore",
+          "end_x": 54.6,
+          "end_y": 33.5,
+          "x": 44.0,
+          "y": 36.5,
+          "index": 431,
+          "type": "Pass",
+          "player": "Joe Allen"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 56.6,
+          "y": 36.2,
+          "index": 432,
+          "type": "Ball Receipt*",
+          "player": "Kieffer Roberto Francisco Moore"
+        },
+        {
+          "receiver": "Harry Kane",
+          "end_x": 76.8,
+          "end_y": 35.7,
+          "x": 65.5,
+          "y": 46.6,
+          "index": 433,
+          "type": "Pass",
+          "player": "Declan Rice"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 76.8,
+          "y": 35.7,
+          "index": 434,
+          "type": "Ball Receipt*",
+          "player": "Harry Kane"
+        },
+        {
+          "receiver": null,
+          "end_x": 81.3,
+          "end_y": 34.2,
+          "x": 76.8,
+          "y": 35.7,
+          "index": 435,
+          "type": "Carry",
+          "player": "Harry Kane"
+        },
+        {
+          "receiver": "Marcus Rashford",
+          "end_x": 104.0,
+          "end_y": 39.5,
+          "x": 81.3,
+          "y": 34.2,
+          "index": 436,
+          "type": "Pass",
+          "player": "Harry Kane"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 104.0,
+          "y": 39.5,
+          "index": 437,
+          "type": "Ball Receipt*",
+          "player": "Marcus Rashford"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 104.0,
+          "y": 39.5,
+          "index": 438,
+          "type": "Shot",
+          "player": "Marcus Rashford"
+        }
+      ]
+    },
+    {
+      "category": "england_attacking_combo",
+      "source_team": "England",
+      "match_id": "3857261",
+      "shot_minute": 76,
+      "shooter": "Jude Bellingham",
+      "xg": 0.25030845,
+      "sequence": [
+        {
+          "receiver": null,
+          "end_x": 92.9,
+          "end_y": 42.6,
+          "x": 68.8,
+          "y": 48.5,
+          "index": 2696,
+          "type": "Carry",
+          "player": "Callum Wilson"
+        },
+        {
+          "receiver": "Jude Bellingham",
+          "end_x": 104.3,
+          "end_y": 32.8,
+          "x": 92.9,
+          "y": 42.6,
+          "index": 2697,
+          "type": "Pass",
+          "player": "Callum Wilson"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 104.3,
+          "y": 32.8,
+          "index": 2698,
+          "type": "Ball Receipt*",
+          "player": "Jude Bellingham"
+        },
+        {
+          "receiver": null,
+          "end_x": null,
+          "end_y": null,
+          "x": 104.3,
+          "y": 32.8,
+          "index": 2699,
+          "type": "Shot",
+          "player": "Jude Bellingham"
+        }
+      ]
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "lane": "central lane",
+      "depth": "box / six-yard zone",
+      "shots": 50,
+      "total_xg": 10.15,
+      "avg_xg": 0.2,
+      "examples": [
+        {
+          "attacking_team": "Poland",
+          "match_id": "3857265",
+          "minute": 6,
+          "shooter": "Robert Lewandowski",
+          "x": 110.6,
+          "xg": 0.056964528,
+          "y": 37.2
+        },
+        {
+          "attacking_team": "Poland",
+          "match_id": "3857265",
+          "minute": 57,
+          "shooter": "Robert Lewandowski",
+          "x": 108.1,
+          "xg": 0.7835,
+          "y": 40.0
+        },
+        {
+          "attacking_team": "Poland",
+          "match_id": "3857265",
+          "minute": 57,
+          "shooter": "Jakub Kami\u0144ski",
+          "x": 113.4,
+          "xg": 0.10166888,
+          "y": 48.8
+        },
+        {
+          "attacking_team": "Poland",
+          "match_id": "3857265",
+          "minute": 81,
+          "shooter": "Jakub Piotr Kiwior",
+          "x": 113.3,
+          "xg": 0.12449861,
+          "y": 41.7
+        },
+        {
+          "attacking_team": "Saudi Arabia",
+          "match_id": "3857260",
+          "minute": 50,
+          "shooter": "Ali Al Hassan",
+          "x": 110.1,
+          "xg": 0.10154356,
+          "y": 45.6
+        },
+        {
+          "attacking_team": "Saudi Arabia",
+          "match_id": "3857260",
+          "minute": 49,
+          "shooter": "Sultan Abdullah Salim Al Ghannam",
+          "x": 115.8,
+          "xg": 0.21450256,
+          "y": 46.7
+        },
+        {
+          "attacking_team": "Saudi Arabia",
+          "match_id": "3857260",
+          "minute": 54,
+          "shooter": "Sultan Abdullah Salim Al Ghannam",
+          "x": 114.8,
+          "xg": 0.030311959,
+          "y": 52.4
+        },
+        {
+          "attacking_team": "Saudi Arabia",
+          "match_id": "3857260",
+          "minute": 61,
+          "shooter": "Abdulelah Al Amri",
+          "x": 109.1,
+          "xg": 0.037819926,
+          "y": 45.1
+        }
+      ]
+    },
+    {
+      "lane": "central lane",
+      "depth": "edge or inside box",
+      "shots": 28,
+      "total_xg": 1.13,
+      "avg_xg": 0.04,
+      "examples": [
+        {
+          "attacking_team": "Poland",
+          "match_id": "3857265",
+          "minute": 95,
+          "shooter": "Grzegorz Krychowiak",
+          "x": 90.9,
+          "xg": 0.02170277,
+          "y": 48.7
+        },
+        {
+          "attacking_team": "Saudi Arabia",
+          "match_id": "3857260",
+          "minute": 2,
+          "shooter": "Saleh Khalid Al Shehri",
+          "x": 92.9,
+          "xg": 0.02182735,
+          "y": 41.7
+        },
+        {
+          "attacking_team": "Saudi Arabia",
+          "match_id": "3857260",
+          "minute": 12,
+          "shooter": "Mohammed Kanoo",
+          "x": 96.3,
+          "xg": 0.073429175,
+          "y": 33.5
+        },
+        {
+          "attacking_team": "Saudi Arabia",
+          "match_id": "3857260",
+          "minute": 80,
+          "shooter": "Salem Mohammed Al Dawsari",
+          "x": 89.2,
+          "xg": 0.019886926,
+          "y": 40.3
+        },
+        {
+          "attacking_team": "Argentina",
+          "match_id": "3857289",
+          "minute": 50,
+          "shooter": "Lionel Andr\u00e9s Messi Cuccittini",
+          "x": 94.8,
+          "xg": 0.067327775,
+          "y": 41.9
+        },
+        {
+          "attacking_team": "Argentina",
+          "match_id": "3857289",
+          "minute": 63,
+          "shooter": "Lionel Andr\u00e9s Messi Cuccittini",
+          "x": 94.9,
+          "xg": 0.033919714,
+          "y": 37.4
+        },
+        {
+          "attacking_team": "Argentina",
+          "match_id": "3857289",
+          "minute": 69,
+          "shooter": "Nahuel Molina Lucero",
+          "x": 101.5,
+          "xg": 0.050896797,
+          "y": 49.2
+        },
+        {
+          "attacking_team": "Germany",
+          "match_id": "7534",
+          "minute": 15,
+          "shooter": "Julian Draxler",
+          "x": 94.0,
+          "xg": 0.020290153,
+          "y": 28.0
+        }
+      ]
+    },
+    {
+      "lane": "left channel",
+      "depth": "box / six-yard zone",
+      "shots": 4,
+      "total_xg": 0.18,
+      "avg_xg": 0.04,
+      "examples": [
+        {
+          "attacking_team": "Poland",
+          "match_id": "3857265",
+          "minute": 93,
+          "shooter": "Jakub Kami\u0144ski",
+          "x": 109.4,
+          "xg": 0.04959144,
+          "y": 24.8
+        },
+        {
+          "attacking_team": "Argentina",
+          "match_id": "3857289",
+          "minute": 86,
+          "shooter": "Enzo Fernandez",
+          "x": 106.5,
+          "xg": 0.035064373,
+          "y": 22.8
+        },
+        {
+          "attacking_team": "Germany",
+          "match_id": "7534",
+          "minute": 54,
+          "shooter": "Julian Draxler",
+          "x": 105.0,
+          "xg": 0.048906885,
+          "y": 25.0
+        },
+        {
+          "attacking_team": "Sweden",
+          "match_id": "7566",
+          "minute": 53,
+          "shooter": "Ludwig Augustinsson",
+          "x": 106.0,
+          "xg": 0.043391652,
+          "y": 25.0
+        }
+      ]
+    },
+    {
+      "lane": "right channel",
+      "depth": "box / six-yard zone",
+      "shots": 3,
+      "total_xg": 0.12,
+      "avg_xg": 0.04,
+      "examples": [
+        {
+          "attacking_team": "Saudi Arabia",
+          "match_id": "3857260",
+          "minute": 7,
+          "shooter": "Mohammed Kanoo",
+          "x": 113.0,
+          "xg": 0.047937077,
+          "y": 54.1
+        },
+        {
+          "attacking_team": "Germany",
+          "match_id": "7534",
+          "minute": 2,
+          "shooter": "Timo Werner",
+          "x": 114.0,
+          "xg": 0.049711905,
+          "y": 54.0
+        },
+        {
+          "attacking_team": "Brazil",
+          "match_id": "7583",
+          "minute": 62,
+          "shooter": "Willian Borges da Silva",
+          "x": 106.0,
+          "xg": 0.026730016,
+          "y": 54.0
+        }
+      ]
+    },
+    {
+      "lane": "right channel",
+      "depth": "edge or inside box",
+      "shots": 4,
+      "total_xg": 0.1,
+      "avg_xg": 0.03,
+      "examples": [
+        {
+          "attacking_team": "South Korea",
+          "match_id": "7553",
+          "minute": 92,
+          "shooter": "Heung-Min Son",
+          "x": 97.0,
+          "xg": 0.02292819,
+          "y": 54.0
+        },
+        {
+          "attacking_team": "Brazil",
+          "match_id": "7583",
+          "minute": 55,
+          "shooter": "Neymar da Silva Santos Junior",
+          "x": 99.0,
+          "xg": 0.033213302,
+          "y": 54.0
+        },
+        {
+          "attacking_team": "Brazil",
+          "match_id": "7583",
+          "minute": 74,
+          "shooter": "Willian Borges da Silva",
+          "x": 97.0,
+          "xg": 0.025631027,
+          "y": 55.0
+        },
+        {
+          "attacking_team": "Sweden",
+          "match_id": "7566",
+          "minute": 14,
+          "shooter": "Emil Peter Forsberg",
+          "x": 96.0,
+          "xg": 0.019455789,
+          "y": 56.0
+        }
+      ]
+    },
+    {
+      "lane": "central lane",
+      "depth": "outside box",
+      "shots": 1,
+      "total_xg": 0.03,
+      "avg_xg": 0.03,
+      "examples": [
+        {
+          "attacking_team": "South Korea",
+          "match_id": "7553",
+          "minute": 30,
+          "shooter": "Heung-Min Son",
+          "x": 87.0,
+          "xg": 0.026791243,
+          "y": 41.0
+        }
+      ]
+    },
+    {
+      "lane": "left channel",
+      "depth": "edge or inside box",
+      "shots": 1,
+      "total_xg": 0.01,
+      "avg_xg": 0.01,
+      "examples": [
+        {
+          "attacking_team": "Saudi Arabia",
+          "match_id": "3857260",
+          "minute": 66,
+          "shooter": "Firas Tariq Nasser Al Albirakan",
+          "x": 101.4,
+          "xg": 0.013105479,
+          "y": 25.4
+        }
+      ]
+    }
+  ],
+  "overview": {
+    "counts": [
+      {
+        "label": "Competition",
+        "count": 1
+      },
+      {
+        "label": "Event",
+        "count": 66939
+      },
+      {
+        "label": "Match",
+        "count": 20
+      },
+      {
+        "label": "Player",
+        "count": 324
+      },
+      {
+        "label": "Season",
+        "count": 3
+      },
+      {
+        "label": "Team",
+        "count": 19
+      }
+    ],
+    "relationships": [
+      {
+        "source": "Competition",
+        "relationship": "HAS_SEASON",
+        "target": "Season",
+        "count": 3
+      },
+      {
+        "source": "Event",
+        "relationship": "AGAINST_TEAM",
+        "target": "Team",
+        "count": 66939
+      },
+      {
+        "source": "Event",
+        "relationship": "FOR_TEAM",
+        "target": "Team",
+        "count": 66939
+      },
+      {
+        "source": "Event",
+        "relationship": "NEXT",
+        "target": "Event",
+        "count": 66919
+      },
+      {
+        "source": "Event",
+        "relationship": "PERFORMED_BY",
+        "target": "Player",
+        "count": 66251
+      },
+      {
+        "source": "Event",
+        "relationship": "RECEIVED_BY",
+        "target": "Player",
+        "count": 17569
+      },
+      {
+        "source": "Match",
+        "relationship": "HAS_EVENT",
+        "target": "Event",
+        "count": 66939
+      },
+      {
+        "source": "Season",
+        "relationship": "HAS_MATCH",
+        "target": "Match",
+        "count": 20
+      },
+      {
+        "source": "Team",
+        "relationship": "PLAYED_IN",
+        "target": "Match",
+        "count": 40
+      }
+    ]
+  },
+  "shots": [
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 9,
+      "player": "Marcus Rashford",
+      "xg": 0.28441095,
+      "x": 104.0,
+      "y": 39.5,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 14,
+      "player": "Philip Foden",
+      "xg": 0.02354375,
+      "x": 97.4,
+      "y": 54.6,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 17,
+      "player": "Harry Maguire",
+      "xg": 0.01084097,
+      "x": 120.0,
+      "y": 54.6,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 23,
+      "player": "Marcus Rashford",
+      "xg": 0.010357286,
+      "x": 98.2,
+      "y": 19.5,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 37,
+      "player": "Philip Foden",
+      "xg": 0.05725451,
+      "x": 105.5,
+      "y": 47.4,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 38,
+      "player": "Marcus Rashford",
+      "xg": 0.081256144,
+      "x": 108.4,
+      "y": 35.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 43,
+      "player": "Harry Kane",
+      "xg": 0.028181294,
+      "x": 101.5,
+      "y": 35.7,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 47,
+      "player": "Harry Kane",
+      "xg": 0.030065771,
+      "x": 101.2,
+      "y": 27.6,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 47,
+      "player": "John Stones",
+      "xg": 0.006450981,
+      "x": 112.8,
+      "y": 55.4,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 49,
+      "player": "Marcus Rashford",
+      "xg": 0.05780817,
+      "x": 96.1,
+      "y": 29.3,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 50,
+      "player": "Philip Foden",
+      "xg": 0.44030064,
+      "x": 114.5,
+      "y": 34.1,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 67,
+      "player": "Marcus Rashford",
+      "xg": 0.096602984,
+      "x": 109.9,
+      "y": 50.3,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 71,
+      "player": "Marcus Rashford",
+      "xg": 0.13184288,
+      "x": 110.3,
+      "y": 52.4,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 76,
+      "player": "Jude Bellingham",
+      "xg": 0.25030845,
+      "x": 104.3,
+      "y": 32.8,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 76,
+      "player": "Jude Bellingham",
+      "xg": 0.24362406,
+      "x": 112.7,
+      "y": 29.3,
+      "outcome": "Wayward"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 76,
+      "player": "Philip Foden",
+      "xg": 0.6100251,
+      "x": 116.1,
+      "y": 39.5,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 90,
+      "player": "John Stones",
+      "xg": 0.45507616,
+      "x": 114.4,
+      "y": 43.9,
+      "outcome": "Post"
+    },
+    {
+      "team": "England",
+      "match_id": "3857261",
+      "minute": 93,
+      "player": "Philip Foden",
+      "xg": 0.09753507,
+      "x": 111.0,
+      "y": 48.5,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "3857271",
+      "minute": 7,
+      "player": "Harry Maguire",
+      "xg": 0.23307544,
+      "x": 115.4,
+      "y": 29.4,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3857271",
+      "minute": 26,
+      "player": "Bukayo Saka",
+      "xg": 0.028282227,
+      "x": 101.1,
+      "y": 55.3,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "3857271",
+      "minute": 29,
+      "player": "Mason Mount",
+      "xg": 0.06697492,
+      "x": 113.4,
+      "y": 49.1,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3857271",
+      "minute": 31,
+      "player": "Harry Maguire",
+      "xg": 0.06988547,
+      "x": 110.5,
+      "y": 40.7,
+      "outcome": "Post"
+    },
+    {
+      "team": "England",
+      "match_id": "3857271",
+      "minute": 34,
+      "player": "Jude Bellingham",
+      "xg": 0.08285139,
+      "x": 112.0,
+      "y": 38.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "3857271",
+      "minute": 42,
+      "player": "Bukayo Saka",
+      "xg": 0.061030492,
+      "x": 104.1,
+      "y": 38.5,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "3857271",
+      "minute": 45,
+      "player": "Raheem Sterling",
+      "xg": 0.1885282,
+      "x": 111.0,
+      "y": 42.8,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "3857271",
+      "minute": 50,
+      "player": "Kieran Trippier",
+      "xg": 0.042866398,
+      "x": 93.9,
+      "y": 27.7,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "3857271",
+      "minute": 58,
+      "player": "Luke Shaw",
+      "xg": 0.021548782,
+      "x": 97.9,
+      "y": 25.1,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "3857271",
+      "minute": 61,
+      "player": "Bukayo Saka",
+      "xg": 0.080026746,
+      "x": 105.3,
+      "y": 46.3,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "3857271",
+      "minute": 70,
+      "player": "Marcus Rashford",
+      "xg": 0.40810898,
+      "x": 109.7,
+      "y": 47.7,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "3857271",
+      "minute": 83,
+      "player": "Marcus Rashford",
+      "xg": 0.0776978,
+      "x": 108.6,
+      "y": 50.7,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "3857271",
+      "minute": 89,
+      "player": "Jack Grealish",
+      "xg": 0.6262809,
+      "x": 112.0,
+      "y": 39.9,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "3857272",
+      "minute": 9,
+      "player": "Harry Kane",
+      "xg": 0.10607713,
+      "x": 108.9,
+      "y": 42.6,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "3857272",
+      "minute": 9,
+      "player": "John Stones",
+      "xg": 0.04222343,
+      "x": 109.2,
+      "y": 38.6,
+      "outcome": "Wayward"
+    },
+    {
+      "team": "England",
+      "match_id": "3857272",
+      "minute": 10,
+      "player": "Mason Mount",
+      "xg": 0.019677445,
+      "x": 94.2,
+      "y": 27.2,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3857272",
+      "minute": 44,
+      "player": "Bukayo Saka",
+      "xg": 0.08680134,
+      "x": 113.2,
+      "y": 36.1,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3857272",
+      "minute": 45,
+      "player": "Mason Mount",
+      "xg": 0.0710417,
+      "x": 100.1,
+      "y": 32.9,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "3857272",
+      "minute": 86,
+      "player": "Marcus Rashford",
+      "xg": 0.009332121,
+      "x": 105.3,
+      "y": 20.7,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "3857272",
+      "minute": 90,
+      "player": "Harry Maguire",
+      "xg": 0.05556727,
+      "x": 109.9,
+      "y": 37.5,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "3857272",
+      "minute": 92,
+      "player": "Harry Kane",
+      "xg": 0.06991791,
+      "x": 111.2,
+      "y": 40.8,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3869118",
+      "minute": 20,
+      "player": "John Stones",
+      "xg": 0.08366814,
+      "x": 113.5,
+      "y": 45.4,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3869118",
+      "minute": 38,
+      "player": "Jordan Brian Henderson",
+      "xg": 0.13174866,
+      "x": 107.6,
+      "y": 38.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "3869118",
+      "minute": 40,
+      "player": "Harry Kane",
+      "xg": 0.18422936,
+      "x": 110.0,
+      "y": 39.3,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3869118",
+      "minute": 47,
+      "player": "Harry Kane",
+      "xg": 0.20664306,
+      "x": 104.3,
+      "y": 50.7,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "3869118",
+      "minute": 53,
+      "player": "Bukayo Saka",
+      "xg": 0.03518777,
+      "x": 107.7,
+      "y": 53.4,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3869118",
+      "minute": 55,
+      "player": "Harry Kane",
+      "xg": 0.015214441,
+      "x": 90.5,
+      "y": 27.1,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "3869118",
+      "minute": 56,
+      "player": "Bukayo Saka",
+      "xg": 0.21738943,
+      "x": 111.0,
+      "y": 35.9,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "3869118",
+      "minute": 90,
+      "player": "Marcus Rashford",
+      "xg": 0.1459426,
+      "x": 117.8,
+      "y": 45.9,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 3,
+      "player": "Philip Foden",
+      "xg": 0.022691524,
+      "x": 100.2,
+      "y": 40.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 20,
+      "player": "Luke Shaw",
+      "xg": 0.05589417,
+      "x": 98.0,
+      "y": 53.2,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 21,
+      "player": "Harry Kane",
+      "xg": 0.07522586,
+      "x": 113.6,
+      "y": 52.2,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 21,
+      "player": "Jude Bellingham",
+      "xg": 0.21807538,
+      "x": 117.3,
+      "y": 35.7,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 28,
+      "player": "Harry Kane",
+      "xg": 0.018916143,
+      "x": 96.7,
+      "y": 57.1,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 46,
+      "player": "Jude Bellingham",
+      "xg": 0.046397094,
+      "x": 101.1,
+      "y": 48.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 47,
+      "player": "Harry Maguire",
+      "xg": 0.048588943,
+      "x": 116.2,
+      "y": 30.9,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 51,
+      "player": "Jordan Brian Henderson",
+      "xg": 0.017202334,
+      "x": 101.1,
+      "y": 56.4,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 53,
+      "player": "Harry Kane",
+      "xg": 0.7835,
+      "x": 108.1,
+      "y": 40.1,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 59,
+      "player": "Bukayo Saka",
+      "xg": 0.07073746,
+      "x": 103.2,
+      "y": 47.6,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 61,
+      "player": "Harry Kane",
+      "xg": 0.029508974,
+      "x": 99.1,
+      "y": 53.8,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 69,
+      "player": "Harry Maguire",
+      "xg": 0.07199757,
+      "x": 109.1,
+      "y": 35.0,
+      "outcome": "Post"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 70,
+      "player": "Luke Shaw",
+      "xg": 0.006951497,
+      "x": 108.4,
+      "y": 21.7,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 83,
+      "player": "Harry Kane",
+      "xg": 0.7835,
+      "x": 108.1,
+      "y": 40.1,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 88,
+      "player": "Mason Mount",
+      "xg": 0.024138648,
+      "x": 89.5,
+      "y": 44.7,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "3869354",
+      "minute": 100,
+      "player": "Marcus Rashford",
+      "xg": 0.07922588,
+      "x": 97.5,
+      "y": 34.1,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 2,
+      "player": "Jesse Lingard",
+      "xg": 0.19693047,
+      "x": 113.0,
+      "y": 39.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 2,
+      "player": "Harry Maguire",
+      "xg": 0.078440964,
+      "x": 108.0,
+      "y": 41.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 10,
+      "player": "Harry Kane",
+      "xg": 0.045925878,
+      "x": 97.0,
+      "y": 36.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 10,
+      "player": "John Stones",
+      "xg": 0.098931395,
+      "x": 112.0,
+      "y": 47.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 10,
+      "player": "Harry Kane",
+      "xg": 0.19627495,
+      "x": 116.0,
+      "y": 46.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 17,
+      "player": "Jordan Brian Henderson",
+      "xg": 0.024635071,
+      "x": 94.0,
+      "y": 48.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 23,
+      "player": "Jesse Lingard",
+      "xg": 0.0688049,
+      "x": 116.0,
+      "y": 50.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 30,
+      "player": "Harry Maguire",
+      "xg": 0.010569053,
+      "x": 111.0,
+      "y": 58.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 38,
+      "player": "Bamidele Alli",
+      "xg": 0.108573206,
+      "x": 118.0,
+      "y": 47.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 38,
+      "player": "Raheem Sterling",
+      "xg": 0.40336105,
+      "x": 117.0,
+      "y": 37.0,
+      "outcome": "Wayward"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 38,
+      "player": "John Stones",
+      "xg": 0.43713534,
+      "x": 114.0,
+      "y": 39.0,
+      "outcome": "Wayward"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 42,
+      "player": "Jesse Lingard",
+      "xg": 0.13074626,
+      "x": 106.0,
+      "y": 41.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 43,
+      "player": "Jesse Lingard",
+      "xg": 0.2161229,
+      "x": 108.0,
+      "y": 54.0,
+      "outcome": "Post"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 50,
+      "player": "Bamidele Alli",
+      "xg": 0.087220274,
+      "x": 112.0,
+      "y": 40.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 60,
+      "player": "John Stones",
+      "xg": 0.052625064,
+      "x": 106.0,
+      "y": 40.0,
+      "outcome": "Wayward"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 68,
+      "player": "Kieran Trippier",
+      "xg": 0.0375056,
+      "x": 93.0,
+      "y": 27.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 78,
+      "player": "Ashley Young",
+      "xg": 0.07838383,
+      "x": 96.0,
+      "y": 34.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7537",
+      "minute": 90,
+      "player": "Harry Kane",
+      "xg": 0.35426354,
+      "x": 116.0,
+      "y": 36.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "7554",
+      "minute": 7,
+      "player": "John Stones",
+      "xg": 0.1349147,
+      "x": 109.0,
+      "y": 42.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "7554",
+      "minute": 21,
+      "player": "Harry Kane",
+      "xg": 0.7835,
+      "x": 109.0,
+      "y": 41.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "7554",
+      "minute": 35,
+      "player": "Jesse Lingard",
+      "xg": 0.056802925,
+      "x": 98.0,
+      "y": 34.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "7554",
+      "minute": 39,
+      "player": "Raheem Sterling",
+      "xg": 0.43374035,
+      "x": 115.0,
+      "y": 40.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "7554",
+      "minute": 39,
+      "player": "John Stones",
+      "xg": 0.5670492,
+      "x": 118.0,
+      "y": 36.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "7554",
+      "minute": 41,
+      "player": "Jesse Lingard",
+      "xg": 0.090631545,
+      "x": 100.0,
+      "y": 40.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "7554",
+      "minute": 45,
+      "player": "Harry Kane",
+      "xg": 0.7835,
+      "x": 109.0,
+      "y": 41.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "7554",
+      "minute": 61,
+      "player": "Ruben Loftus-Cheek",
+      "xg": 0.03459167,
+      "x": 97.0,
+      "y": 51.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "7554",
+      "minute": 61,
+      "player": "Harry Kane",
+      "xg": 0.20022032,
+      "x": 105.0,
+      "y": 49.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "7554",
+      "minute": 72,
+      "player": "Jordan Brian Henderson",
+      "xg": 0.061970674,
+      "x": 104.0,
+      "y": 45.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7554",
+      "minute": 81,
+      "player": "Raheem Sterling",
+      "xg": 0.021399647,
+      "x": 93.0,
+      "y": 30.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7570",
+      "minute": 11,
+      "player": "Marcus Rashford",
+      "xg": 0.006949785,
+      "x": 91.0,
+      "y": 20.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "7570",
+      "minute": 13,
+      "player": "Jamie Vardy",
+      "xg": 0.17350295,
+      "x": 112.0,
+      "y": 42.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7570",
+      "minute": 33,
+      "player": "Ruben Loftus-Cheek",
+      "xg": 0.08550697,
+      "x": 113.0,
+      "y": 40.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7570",
+      "minute": 35,
+      "player": "Jamie Vardy",
+      "xg": 0.07114903,
+      "x": 109.0,
+      "y": 35.0,
+      "outcome": "Wayward"
+    },
+    {
+      "team": "England",
+      "match_id": "7570",
+      "minute": 47,
+      "player": "Marcus Rashford",
+      "xg": 0.07081192,
+      "x": 107.0,
+      "y": 27.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7570",
+      "minute": 53,
+      "player": "Trent Alexander-Arnold",
+      "xg": 0.06266041,
+      "x": 93.0,
+      "y": 42.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "7570",
+      "minute": 65,
+      "player": "Marcus Rashford",
+      "xg": 0.46036732,
+      "x": 104.0,
+      "y": 33.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "7570",
+      "minute": 66,
+      "player": "Fabian Delph",
+      "xg": 0.0065541323,
+      "x": 86.0,
+      "y": 50.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7570",
+      "minute": 69,
+      "player": "Fabian Delph",
+      "xg": 0.055591382,
+      "x": 99.0,
+      "y": 33.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "7570",
+      "minute": 80,
+      "player": "Marcus Rashford",
+      "xg": 0.01720768,
+      "x": 92.0,
+      "y": 55.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7570",
+      "minute": 82,
+      "player": "Daniel Nii Tackie Mensah Welbeck",
+      "xg": 0.07303211,
+      "x": 106.0,
+      "y": 31.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "7570",
+      "minute": 86,
+      "player": "Daniel Nii Tackie Mensah Welbeck",
+      "xg": 0.11735268,
+      "x": 116.0,
+      "y": 30.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 5,
+      "player": "Ashley Young",
+      "xg": 0.009816105,
+      "x": 115.0,
+      "y": 18.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 7,
+      "player": "Raheem Sterling",
+      "xg": 0.03820353,
+      "x": 112.0,
+      "y": 54.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 12,
+      "player": "Raheem Sterling",
+      "xg": 0.045127578,
+      "x": 98.0,
+      "y": 37.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 15,
+      "player": "Harry Kane",
+      "xg": 0.6250739,
+      "x": 119.0,
+      "y": 36.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 30,
+      "player": "Raheem Sterling",
+      "xg": 0.06310501,
+      "x": 101.0,
+      "y": 46.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 41,
+      "player": "Kieran Trippier",
+      "xg": 0.0893018,
+      "x": 99.0,
+      "y": 31.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 44,
+      "player": "Harry Kane",
+      "xg": 0.008124489,
+      "x": 94.0,
+      "y": 59.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 46,
+      "player": "Jesse Lingard",
+      "xg": 0.06307399,
+      "x": 108.0,
+      "y": 50.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 56,
+      "player": "Harry Kane",
+      "xg": 0.7835,
+      "x": 108.0,
+      "y": 40.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 62,
+      "player": "Bamidele Alli",
+      "xg": 0.10895206,
+      "x": 117.0,
+      "y": 32.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 72,
+      "player": "Harry Maguire",
+      "xg": 0.059315044,
+      "x": 108.0,
+      "y": 45.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 83,
+      "player": "Harry Maguire",
+      "xg": 0.089014076,
+      "x": 115.0,
+      "y": 31.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 105,
+      "player": "Jesse Lingard",
+      "xg": 0.04739213,
+      "x": 98.0,
+      "y": 45.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 107,
+      "player": "Jamie Vardy",
+      "xg": 0.013426386,
+      "x": 112.0,
+      "y": 56.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 111,
+      "player": "Danny Rose",
+      "xg": 0.01549221,
+      "x": 113.0,
+      "y": 25.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 114,
+      "player": "Eric Dier",
+      "xg": 0.11420015,
+      "x": 112.0,
+      "y": 44.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 118,
+      "player": "Harry Maguire",
+      "xg": 0.07117139,
+      "x": 111.0,
+      "y": 45.0,
+      "outcome": "Wayward"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 121,
+      "player": "Harry Kane",
+      "xg": 0.7835,
+      "x": 109.0,
+      "y": 41.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 122,
+      "player": "Marcus Rashford",
+      "xg": 0.7835,
+      "x": 109.0,
+      "y": 41.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 123,
+      "player": "Jordan Brian Henderson",
+      "xg": 0.7835,
+      "x": 109.0,
+      "y": 41.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 125,
+      "player": "Kieran Trippier",
+      "xg": 0.7835,
+      "x": 109.0,
+      "y": 41.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "7585",
+      "minute": 127,
+      "player": "Eric Dier",
+      "xg": 0.7835,
+      "x": 109.0,
+      "y": 41.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "8651",
+      "minute": 18,
+      "player": "Harry Kane",
+      "xg": 0.057993297,
+      "x": 97.0,
+      "y": 46.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "8651",
+      "minute": 29,
+      "player": "Harry Maguire",
+      "xg": 0.061832782,
+      "x": 110.0,
+      "y": 44.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "8651",
+      "minute": 34,
+      "player": "Jordan Brian Henderson",
+      "xg": 0.008420511,
+      "x": 94.0,
+      "y": 58.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "8651",
+      "minute": 44,
+      "player": "Raheem Sterling",
+      "xg": 0.11924116,
+      "x": 111.0,
+      "y": 51.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "8651",
+      "minute": 53,
+      "player": "Raheem Sterling",
+      "xg": 0.08364045,
+      "x": 115.0,
+      "y": 32.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "8651",
+      "minute": 56,
+      "player": "Jesse Lingard",
+      "xg": 0.014800565,
+      "x": 95.0,
+      "y": 23.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "8651",
+      "minute": 57,
+      "player": "Jesse Lingard",
+      "xg": 0.040688924,
+      "x": 98.0,
+      "y": 48.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "8651",
+      "minute": 58,
+      "player": "Bamidele Alli",
+      "xg": 0.14410557,
+      "x": 116.0,
+      "y": 32.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "8651",
+      "minute": 65,
+      "player": "Harry Maguire",
+      "xg": 0.08273663,
+      "x": 111.0,
+      "y": 30.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "8651",
+      "minute": 67,
+      "player": "Bamidele Alli",
+      "xg": 0.053019132,
+      "x": 102.0,
+      "y": 29.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "8651",
+      "minute": 68,
+      "player": "Bamidele Alli",
+      "xg": 0.011284669,
+      "x": 107.0,
+      "y": 20.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "8651",
+      "minute": 81,
+      "player": "Jesse Lingard",
+      "xg": 0.0804723,
+      "x": 98.0,
+      "y": 43.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "8656",
+      "minute": 4,
+      "player": "Kieran Trippier",
+      "xg": 0.087601066,
+      "x": 96.0,
+      "y": 43.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "England",
+      "match_id": "8656",
+      "minute": 13,
+      "player": "Harry Maguire",
+      "xg": 0.06737803,
+      "x": 111.0,
+      "y": 37.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "8656",
+      "minute": 35,
+      "player": "Jesse Lingard",
+      "xg": 0.07025741,
+      "x": 102.0,
+      "y": 41.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "8656",
+      "minute": 36,
+      "player": "Raheem Sterling",
+      "xg": 0.044552676,
+      "x": 104.0,
+      "y": 52.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "8656",
+      "minute": 55,
+      "player": "Jesse Lingard",
+      "xg": 0.07605162,
+      "x": 96.0,
+      "y": 45.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "8656",
+      "minute": 66,
+      "player": "Harry Kane",
+      "xg": 0.012158659,
+      "x": 118.0,
+      "y": 56.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "8656",
+      "minute": 76,
+      "player": "Jesse Lingard",
+      "xg": 0.016519846,
+      "x": 115.0,
+      "y": 55.0,
+      "outcome": "Wayward"
+    },
+    {
+      "team": "England",
+      "match_id": "8656",
+      "minute": 77,
+      "player": "Jordan Brian Henderson",
+      "xg": 0.03295447,
+      "x": 95.0,
+      "y": 45.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "8656",
+      "minute": 91,
+      "player": "Harry Kane",
+      "xg": 0.054013368,
+      "x": 113.0,
+      "y": 33.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "8656",
+      "minute": 97,
+      "player": "Eric Dier",
+      "xg": 0.020738635,
+      "x": 92.0,
+      "y": 51.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "8656",
+      "minute": 98,
+      "player": "John Stones",
+      "xg": 0.06443832,
+      "x": 113.0,
+      "y": 49.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "8657",
+      "minute": 11,
+      "player": "Raheem Sterling",
+      "xg": 0.044181537,
+      "x": 100.0,
+      "y": 53.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "8657",
+      "minute": 13,
+      "player": "Fabian Delph",
+      "xg": 0.036182866,
+      "x": 91.0,
+      "y": 31.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "8657",
+      "minute": 14,
+      "player": "Ruben Loftus-Cheek",
+      "xg": 0.15455301,
+      "x": 108.0,
+      "y": 45.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "8657",
+      "minute": 19,
+      "player": "Harry Maguire",
+      "xg": 0.057117913,
+      "x": 108.0,
+      "y": 37.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "8657",
+      "minute": 22,
+      "player": "Harry Kane",
+      "xg": 0.09063098,
+      "x": 104.0,
+      "y": 41.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "8657",
+      "minute": 23,
+      "player": "Raheem Sterling",
+      "xg": 0.03685726,
+      "x": 97.0,
+      "y": 29.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "8657",
+      "minute": 53,
+      "player": "Jesse Lingard",
+      "xg": 0.051518958,
+      "x": 109.0,
+      "y": 54.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "8657",
+      "minute": 55,
+      "player": "Jesse Lingard",
+      "xg": 0.010714026,
+      "x": 107.0,
+      "y": 58.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "8657",
+      "minute": 65,
+      "player": "Harry Kane",
+      "xg": 0.03272615,
+      "x": 100.0,
+      "y": 48.0,
+      "outcome": "Wayward"
+    },
+    {
+      "team": "England",
+      "match_id": "8657",
+      "minute": 68,
+      "player": "Eric Dier",
+      "xg": 0.033268016,
+      "x": 94.0,
+      "y": 50.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "England",
+      "match_id": "8657",
+      "minute": 69,
+      "player": "Eric Dier",
+      "xg": 0.44786552,
+      "x": 112.0,
+      "y": 50.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "England",
+      "match_id": "8657",
+      "minute": 69,
+      "player": "Harry Maguire",
+      "xg": 0.09484852,
+      "x": 110.0,
+      "y": 40.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "8657",
+      "minute": 72,
+      "player": "Eric Dier",
+      "xg": 0.10776293,
+      "x": 109.0,
+      "y": 43.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "8657",
+      "minute": 73,
+      "player": "Harry Maguire",
+      "xg": 0.11155334,
+      "x": 111.0,
+      "y": 33.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "England",
+      "match_id": "8657",
+      "minute": 79,
+      "player": "Marcus Rashford",
+      "xg": 0.025575599,
+      "x": 99.0,
+      "y": 23.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 1,
+      "player": "Luis Gerardo Ch\u00e1vez Magall\u00f3n",
+      "xg": 0.021919996,
+      "x": 91.7,
+      "y": 51.5,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 2,
+      "player": "Ernesto Alexis Vega Rojas",
+      "xg": 0.3665275,
+      "x": 101.6,
+      "y": 38.9,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 22,
+      "player": "Luis Gerardo Ch\u00e1vez Magall\u00f3n",
+      "xg": 0.01981399,
+      "x": 92.7,
+      "y": 40.4,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 24,
+      "player": "Orbel\u00edn Pineda Alvarado",
+      "xg": 0.0489465,
+      "x": 104.0,
+      "y": 44.6,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 26,
+      "player": "Orbel\u00edn Pineda Alvarado",
+      "xg": 0.30787364,
+      "x": 115.8,
+      "y": 34.5,
+      "outcome": "Wayward"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 34,
+      "player": "Luis Gerardo Ch\u00e1vez Magall\u00f3n",
+      "xg": 0.016814427,
+      "x": 89.6,
+      "y": 28.9,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 35,
+      "player": "Jes\u00fas Daniel Gallardo Vasconcelos",
+      "xg": 0.06430086,
+      "x": 106.8,
+      "y": 43.3,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 40,
+      "player": "Luis Gerardo Ch\u00e1vez Magall\u00f3n",
+      "xg": 0.0066389865,
+      "x": 84.6,
+      "y": 49.2,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 40,
+      "player": "Orbel\u00edn Pineda Alvarado",
+      "xg": 0.062194254,
+      "x": 102.0,
+      "y": 45.2,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 44,
+      "player": "Ernesto Alexis Vega Rojas",
+      "xg": 0.04950449,
+      "x": 106.1,
+      "y": 29.3,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 44,
+      "player": "Luis Gerardo Ch\u00e1vez Magall\u00f3n",
+      "xg": 0.015146091,
+      "x": 92.9,
+      "y": 30.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 46,
+      "player": "Luis Gerardo Ch\u00e1vez Magall\u00f3n",
+      "xg": 0.018109906,
+      "x": 85.5,
+      "y": 41.2,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 46,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.0068189544,
+      "x": 102.7,
+      "y": 19.2,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 46,
+      "player": "Henry Josu\u00e9 Mart\u00edn Mex",
+      "xg": 0.28809994,
+      "x": 116.7,
+      "y": 40.2,
+      "outcome": "Goal"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 51,
+      "player": "Luis Gerardo Ch\u00e1vez Magall\u00f3n",
+      "xg": 0.024289701,
+      "x": 86.7,
+      "y": 41.3,
+      "outcome": "Goal"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 58,
+      "player": "Henry Josu\u00e9 Mart\u00edn Mex",
+      "xg": 0.09122391,
+      "x": 112.0,
+      "y": 40.0,
+      "outcome": "Wayward"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 66,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.05300886,
+      "x": 97.5,
+      "y": 31.3,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 69,
+      "player": "Henry Josu\u00e9 Mart\u00edn Mex",
+      "xg": 0.22500646,
+      "x": 108.8,
+      "y": 34.9,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 72,
+      "player": "Luis Gerardo Ch\u00e1vez Magall\u00f3n",
+      "xg": 0.027150616,
+      "x": 87.3,
+      "y": 40.5,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 75,
+      "player": "Orbel\u00edn Pineda Alvarado",
+      "xg": 0.08600338,
+      "x": 100.5,
+      "y": 32.9,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 77,
+      "player": "Carlos Uriel Antuna Romero",
+      "xg": 0.26870292,
+      "x": 109.4,
+      "y": 35.9,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 77,
+      "player": "Edson Omar \u00c1lvarez Vel\u00e1zquez",
+      "xg": 0.013687578,
+      "x": 85.8,
+      "y": 42.8,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 82,
+      "player": "Luis Gerardo Ch\u00e1vez Magall\u00f3n",
+      "xg": 0.057560198,
+      "x": 101.0,
+      "y": 46.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 88,
+      "player": "Rogelio Gabriel Funes Mori",
+      "xg": 0.06664524,
+      "x": 98.8,
+      "y": 37.4,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 91,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.05359905,
+      "x": 92.9,
+      "y": 31.8,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857260",
+      "minute": 93,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.06253588,
+      "x": 101.9,
+      "y": 28.3,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857265",
+      "minute": 11,
+      "player": "H\u00e9ctor Alfredo Moreno Herrera",
+      "xg": 0.1766503,
+      "x": 114.5,
+      "y": 42.4,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857265",
+      "minute": 25,
+      "player": "Ernesto Alexis Vega Rojas",
+      "xg": 0.098180205,
+      "x": 113.2,
+      "y": 34.6,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857265",
+      "minute": 43,
+      "player": "Ernesto Alexis Vega Rojas",
+      "xg": 0.025630916,
+      "x": 108.5,
+      "y": 23.7,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857265",
+      "minute": 44,
+      "player": "Jorge Eduardo S\u00e1nchez Ramos",
+      "xg": 0.0069717234,
+      "x": 110.1,
+      "y": 60.7,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857265",
+      "minute": 46,
+      "player": "Luis Gerardo Ch\u00e1vez Magall\u00f3n",
+      "xg": 0.008207667,
+      "x": 92.1,
+      "y": 56.9,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857265",
+      "minute": 51,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.02413981,
+      "x": 93.9,
+      "y": 25.2,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857265",
+      "minute": 59,
+      "player": "Ernesto Alexis Vega Rojas",
+      "xg": 0.0609232,
+      "x": 107.9,
+      "y": 29.9,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857265",
+      "minute": 63,
+      "player": "Henry Josu\u00e9 Mart\u00edn Mex",
+      "xg": 0.06434309,
+      "x": 106.7,
+      "y": 35.1,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857265",
+      "minute": 65,
+      "player": "Ernesto Alexis Vega Rojas",
+      "xg": 0.009746956,
+      "x": 102.7,
+      "y": 60.6,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857265",
+      "minute": 79,
+      "player": "Ernesto Alexis Vega Rojas",
+      "xg": 0.014301864,
+      "x": 93.0,
+      "y": 24.5,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857265",
+      "minute": 95,
+      "player": "Carlos Uriel Antuna Romero",
+      "xg": 0.0400392,
+      "x": 101.9,
+      "y": 56.4,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857289",
+      "minute": 9,
+      "player": "C\u00e9sar Jasib Montes Castro",
+      "xg": 0.0988946,
+      "x": 107.6,
+      "y": 38.6,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857289",
+      "minute": 44,
+      "player": "Ernesto Alexis Vega Rojas",
+      "xg": 0.05948228,
+      "x": 92.4,
+      "y": 35.8,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857289",
+      "minute": 47,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.040303126,
+      "x": 93.5,
+      "y": 36.8,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "3857289",
+      "minute": 49,
+      "player": "Ernesto Alexis Vega Rojas",
+      "xg": 0.0077116457,
+      "x": 92.8,
+      "y": 23.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7534",
+      "minute": 0,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.11827388,
+      "x": 111.0,
+      "y": 29.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7534",
+      "minute": 8,
+      "player": "Miguel Arturo Lay\u00fan Prado",
+      "xg": 0.08506853,
+      "x": 95.0,
+      "y": 38.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7534",
+      "minute": 9,
+      "player": "H\u00e9ctor Miguel Herrera L\u00f3pez",
+      "xg": 0.028636595,
+      "x": 91.0,
+      "y": 40.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7534",
+      "minute": 13,
+      "player": "H\u00e9ctor Alfredo Moreno Herrera",
+      "xg": 0.09705013,
+      "x": 110.0,
+      "y": 39.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7534",
+      "minute": 22,
+      "player": "Javier Hern\u00e1ndez Balc\u00e1zar",
+      "xg": 0.043891508,
+      "x": 100.0,
+      "y": 31.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7534",
+      "minute": 26,
+      "player": "Miguel Arturo Lay\u00fan Prado",
+      "xg": 0.041151885,
+      "x": 95.0,
+      "y": 39.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7534",
+      "minute": 28,
+      "player": "Miguel Arturo Lay\u00fan Prado",
+      "xg": 0.043912183,
+      "x": 97.0,
+      "y": 34.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7534",
+      "minute": 34,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.19460402,
+      "x": 109.0,
+      "y": 32.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7534",
+      "minute": 44,
+      "player": "Carlos Alberto Vela Garrido",
+      "xg": 0.13477883,
+      "x": 102.0,
+      "y": 32.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7534",
+      "minute": 56,
+      "player": "Jos\u00e9 Andr\u00e9s Guardado Hern\u00e1ndez",
+      "xg": 0.074448265,
+      "x": 102.0,
+      "y": 29.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7534",
+      "minute": 77,
+      "player": "Miguel Arturo Lay\u00fan Prado",
+      "xg": 0.073443435,
+      "x": 97.0,
+      "y": 48.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7534",
+      "minute": 81,
+      "player": "Miguel Arturo Lay\u00fan Prado",
+      "xg": 0.058029506,
+      "x": 101.0,
+      "y": 54.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7553",
+      "minute": 7,
+      "player": "Edson Omar \u00c1lvarez Vel\u00e1zquez",
+      "xg": 0.108760424,
+      "x": 112.0,
+      "y": 41.0,
+      "outcome": "Wayward"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7553",
+      "minute": 11,
+      "player": "Javier Hern\u00e1ndez Balc\u00e1zar",
+      "xg": 0.05888787,
+      "x": 107.0,
+      "y": 45.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7553",
+      "minute": 16,
+      "player": "Carlos Joel Salcedo Hern\u00e1ndez",
+      "xg": 0.055134527,
+      "x": 111.0,
+      "y": 49.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7553",
+      "minute": 25,
+      "player": "Carlos Alberto Vela Garrido",
+      "xg": 0.7835,
+      "x": 109.0,
+      "y": 41.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7553",
+      "minute": 27,
+      "player": "Miguel Arturo Lay\u00fan Prado",
+      "xg": 0.09150781,
+      "x": 105.0,
+      "y": 42.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7553",
+      "minute": 42,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.07445391,
+      "x": 108.0,
+      "y": 26.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7553",
+      "minute": 49,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.026885381,
+      "x": 100.0,
+      "y": 28.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7553",
+      "minute": 51,
+      "player": "Javier Hern\u00e1ndez Balc\u00e1zar",
+      "xg": 0.037323274,
+      "x": 90.0,
+      "y": 46.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7553",
+      "minute": 57,
+      "player": "Jos\u00e9 Andr\u00e9s Guardado Hern\u00e1ndez",
+      "xg": 0.04806095,
+      "x": 96.0,
+      "y": 46.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7553",
+      "minute": 57,
+      "player": "Jos\u00e9 Andr\u00e9s Guardado Hern\u00e1ndez",
+      "xg": 0.09060148,
+      "x": 104.0,
+      "y": 36.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7553",
+      "minute": 59,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.19791076,
+      "x": 100.0,
+      "y": 39.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7553",
+      "minute": 61,
+      "player": "Carlos Alberto Vela Garrido",
+      "xg": 0.019312114,
+      "x": 101.0,
+      "y": 58.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7553",
+      "minute": 65,
+      "player": "Javier Hern\u00e1ndez Balc\u00e1zar",
+      "xg": 0.25309914,
+      "x": 111.0,
+      "y": 32.0,
+      "outcome": "Goal"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7553",
+      "minute": 91,
+      "player": "H\u00e9ctor Miguel Herrera L\u00f3pez",
+      "xg": 0.03211408,
+      "x": 96.0,
+      "y": 47.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 9,
+      "player": "Miguel Arturo Lay\u00fan Prado",
+      "xg": 0.006126076,
+      "x": 92.0,
+      "y": 58.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 16,
+      "player": "Carlos Alberto Vela Garrido",
+      "xg": 0.08026171,
+      "x": 104.0,
+      "y": 46.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 21,
+      "player": "Carlos Alberto Vela Garrido",
+      "xg": 0.0071684807,
+      "x": 99.0,
+      "y": 63.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 22,
+      "player": "Jos\u00e9 Andr\u00e9s Guardado Hern\u00e1ndez",
+      "xg": 0.20374292,
+      "x": 116.0,
+      "y": 40.0,
+      "outcome": "Wayward"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 22,
+      "player": "H\u00e9ctor Miguel Herrera L\u00f3pez",
+      "xg": 0.010197213,
+      "x": 117.0,
+      "y": 22.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 22,
+      "player": "Jos\u00e9 Andr\u00e9s Guardado Hern\u00e1ndez",
+      "xg": 0.03579779,
+      "x": 93.0,
+      "y": 34.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 35,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.04393479,
+      "x": 99.0,
+      "y": 28.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 38,
+      "player": "Carlos Alberto Vela Garrido",
+      "xg": 0.03696837,
+      "x": 106.0,
+      "y": 54.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 39,
+      "player": "Carlos Joel Salcedo Hern\u00e1ndez",
+      "xg": 0.036778748,
+      "x": 104.0,
+      "y": 28.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 44,
+      "player": "Miguel Arturo Lay\u00fan Prado",
+      "xg": 0.009557878,
+      "x": 105.0,
+      "y": 61.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 52,
+      "player": "Jos\u00e9 Andr\u00e9s Guardado Hern\u00e1ndez",
+      "xg": 0.008584143,
+      "x": 115.0,
+      "y": 19.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 63,
+      "player": "Carlos Joel Salcedo Hern\u00e1ndez",
+      "xg": 0.005298881,
+      "x": 80.0,
+      "y": 54.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 65,
+      "player": "Marco Jhonfai Fabi\u00e1n De La Mora",
+      "xg": 0.022069821,
+      "x": 90.0,
+      "y": 48.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 67,
+      "player": "Carlos Joel Salcedo Hern\u00e1ndez",
+      "xg": 0.06593669,
+      "x": 111.0,
+      "y": 31.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 69,
+      "player": "Javier Hern\u00e1ndez Balc\u00e1zar",
+      "xg": 0.111651056,
+      "x": 106.0,
+      "y": 40.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 75,
+      "player": "H\u00e9ctor Alfredo Moreno Herrera",
+      "xg": 0.06666666,
+      "x": 111.0,
+      "y": 42.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 80,
+      "player": "Carlos Alberto Vela Garrido",
+      "xg": 0.03963313,
+      "x": 96.0,
+      "y": 54.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 80,
+      "player": "Javier Hern\u00e1ndez Balc\u00e1zar",
+      "xg": 0.03585116,
+      "x": 116.0,
+      "y": 29.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 80,
+      "player": "Carlos Alberto Vela Garrido",
+      "xg": 0.7177226,
+      "x": 117.0,
+      "y": 42.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 88,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.033147816,
+      "x": 98.0,
+      "y": 51.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 92,
+      "player": "H\u00e9ctor Miguel Herrera L\u00f3pez",
+      "xg": 0.021690294,
+      "x": 91.0,
+      "y": 48.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7566",
+      "minute": 92,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.011917301,
+      "x": 102.0,
+      "y": 21.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7583",
+      "minute": 1,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.05415287,
+      "x": 111.0,
+      "y": 52.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7583",
+      "minute": 8,
+      "player": "Carlos Joel Salcedo Hern\u00e1ndez",
+      "xg": 0.054524276,
+      "x": 107.0,
+      "y": 43.0,
+      "outcome": "Wayward"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7583",
+      "minute": 17,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.013404567,
+      "x": 111.0,
+      "y": 58.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7583",
+      "minute": 21,
+      "player": "H\u00e9ctor Miguel Herrera L\u00f3pez",
+      "xg": 0.07629375,
+      "x": 105.0,
+      "y": 41.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7583",
+      "minute": 29,
+      "player": "Carlos Alberto Vela Garrido",
+      "xg": 0.052823946,
+      "x": 101.0,
+      "y": 26.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7583",
+      "minute": 49,
+      "player": "Jes\u00fas Daniel Gallardo Vasconcelos",
+      "xg": 0.03874606,
+      "x": 95.0,
+      "y": 33.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7583",
+      "minute": 51,
+      "player": "Jos\u00e9 Andr\u00e9s Guardado Hern\u00e1ndez",
+      "xg": 0.037245482,
+      "x": 92.0,
+      "y": 33.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7583",
+      "minute": 53,
+      "player": "Miguel Arturo Lay\u00fan Prado",
+      "xg": 0.024707977,
+      "x": 97.0,
+      "y": 54.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7583",
+      "minute": 60,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.03328007,
+      "x": 91.0,
+      "y": 41.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7583",
+      "minute": 60,
+      "player": "Carlos Alberto Vela Garrido",
+      "xg": 0.038836006,
+      "x": 100.0,
+      "y": 56.0,
+      "outcome": "Saved"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7583",
+      "minute": 69,
+      "player": "Jos\u00e9 Andr\u00e9s Guardado Hern\u00e1ndez",
+      "xg": 0.030940883,
+      "x": 93.0,
+      "y": 41.0,
+      "outcome": "Blocked"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7583",
+      "minute": 86,
+      "player": "Hugo Ayala Castro",
+      "xg": 0.04604762,
+      "x": 109.0,
+      "y": 29.0,
+      "outcome": "Wayward"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7583",
+      "minute": 91,
+      "player": "Hirving Rodrigo Lozano Bahena",
+      "xg": 0.013872243,
+      "x": 111.0,
+      "y": 59.0,
+      "outcome": "Off T"
+    },
+    {
+      "team": "Mexico",
+      "match_id": "7583",
+      "minute": 94,
+      "player": "Ra\u00fal Alonso Jim\u00e9nez Rodr\u00edguez",
+      "xg": 0.06792407,
+      "x": 105.0,
+      "y": 52.0,
+      "outcome": "Blocked"
+    }
+  ],
+  "heat": [
+    {
+      "x_bin": 11.0,
+      "y_bin": 4.0,
+      "shots": 12,
+      "total_xg": 3.83,
+      "examples": [
+        {
+          "attacking_team": "Poland",
+          "minute": 57,
+          "player": "Jakub Kami\u0144ski",
+          "xg": 0.10166888
+        },
+        {
+          "attacking_team": "Poland",
+          "minute": 81,
+          "player": "Jakub Piotr Kiwior",
+          "xg": 0.12449861
+        },
+        {
+          "attacking_team": "Saudi Arabia",
+          "minute": 50,
+          "player": "Ali Al Hassan",
+          "xg": 0.10154356
+        },
+        {
+          "attacking_team": "Saudi Arabia",
+          "minute": 49,
+          "player": "Sultan Abdullah Salim Al Ghannam",
+          "xg": 0.21450256
+        }
+      ]
+    },
+    {
+      "x_bin": 10.0,
+      "y_bin": 4.0,
+      "shots": 14,
+      "total_xg": 2.8,
+      "examples": [
+        {
+          "attacking_team": "Poland",
+          "minute": 57,
+          "player": "Robert Lewandowski",
+          "xg": 0.7835
+        },
+        {
+          "attacking_team": "Saudi Arabia",
+          "minute": 61,
+          "player": "Abdulelah Al Amri",
+          "xg": 0.037819926
+        },
+        {
+          "attacking_team": "Argentina",
+          "minute": 69,
+          "player": "Nahuel Molina Lucero",
+          "xg": 0.050896797
+        },
+        {
+          "attacking_team": "Germany",
+          "minute": 6,
+          "player": "Mats Hummels",
+          "xg": 0.07167251
+        }
+      ]
+    },
+    {
+      "x_bin": 11.0,
+      "y_bin": 3.0,
+      "shots": 14,
+      "total_xg": 2.69,
+      "examples": [
+        {
+          "attacking_team": "Poland",
+          "minute": 6,
+          "player": "Robert Lewandowski",
+          "xg": 0.056964528
+        },
+        {
+          "attacking_team": "Argentina",
+          "minute": 39,
+          "player": "Lautaro Javier Mart\u00ednez",
+          "xg": 0.13799548
+        },
+        {
+          "attacking_team": "Germany",
+          "minute": 67,
+          "player": "Timo Werner",
+          "xg": 0.3045737
+        },
+        {
+          "attacking_team": "Germany",
+          "minute": 85,
+          "player": "Mario G\u00f3mez Garc\u00eda",
+          "xg": 0.090416625
+        }
+      ]
+    },
+    {
+      "x_bin": 10.0,
+      "y_bin": 3.0,
+      "shots": 9,
+      "total_xg": 0.66,
+      "examples": [
+        {
+          "attacking_team": "Germany",
+          "minute": 54,
+          "player": "Toni Kroos",
+          "xg": 0.07452877
+        },
+        {
+          "attacking_team": "Germany",
+          "minute": 66,
+          "player": "Julian Draxler",
+          "xg": 0.041622043
+        },
+        {
+          "attacking_team": "South Korea",
+          "minute": 60,
+          "player": "Jae-Sung Lee",
+          "xg": 0.08345764
+        },
+        {
+          "attacking_team": "Brazil",
+          "minute": 26,
+          "player": "Philippe Coutinho Correia",
+          "xg": 0.047103178
+        }
+      ]
+    },
+    {
+      "x_bin": 9.0,
+      "y_bin": 4.0,
+      "shots": 11,
+      "total_xg": 0.44,
+      "examples": [
+        {
+          "attacking_team": "Poland",
+          "minute": 95,
+          "player": "Grzegorz Krychowiak",
+          "xg": 0.02170277
+        },
+        {
+          "attacking_team": "Saudi Arabia",
+          "minute": 2,
+          "player": "Saleh Khalid Al Shehri",
+          "xg": 0.02182735
+        },
+        {
+          "attacking_team": "Argentina",
+          "minute": 50,
+          "player": "Lionel Andr\u00e9s Messi Cuccittini",
+          "xg": 0.067327775
+        },
+        {
+          "attacking_team": "Germany",
+          "minute": 38,
+          "player": "Toni Kroos",
+          "xg": 0.06350054
+        }
+      ]
+    },
+    {
+      "x_bin": 10.0,
+      "y_bin": 2.0,
+      "shots": 7,
+      "total_xg": 0.4,
+      "examples": [
+        {
+          "attacking_team": "Poland",
+          "minute": 93,
+          "player": "Jakub Kami\u0144ski",
+          "xg": 0.04959144
+        },
+        {
+          "attacking_team": "Saudi Arabia",
+          "minute": 66,
+          "player": "Firas Tariq Nasser Al Albirakan",
+          "xg": 0.013105479
+        },
+        {
+          "attacking_team": "Argentina",
+          "minute": 86,
+          "player": "Enzo Fernandez",
+          "xg": 0.035064373
+        },
+        {
+          "attacking_team": "Germany",
+          "minute": 54,
+          "player": "Julian Draxler",
+          "xg": 0.048906885
+        }
+      ]
+    },
+    {
+      "x_bin": 9.0,
+      "y_bin": 3.0,
+      "shots": 8,
+      "total_xg": 0.34,
+      "examples": [
+        {
+          "attacking_team": "Saudi Arabia",
+          "minute": 12,
+          "player": "Mohammed Kanoo",
+          "xg": 0.073429175
+        },
+        {
+          "attacking_team": "Argentina",
+          "minute": 63,
+          "player": "Lionel Andr\u00e9s Messi Cuccittini",
+          "xg": 0.033919714
+        },
+        {
+          "attacking_team": "Germany",
+          "minute": 47,
+          "player": "Marvin Plattenhardt",
+          "xg": 0.02910846
+        },
+        {
+          "attacking_team": "Germany",
+          "minute": 60,
+          "player": "Julian Draxler",
+          "xg": 0.04040635
+        }
+      ]
+    },
+    {
+      "x_bin": 10.0,
+      "y_bin": 5.0,
+      "shots": 3,
+      "total_xg": 0.18,
+      "examples": [
+        {
+          "attacking_team": "Germany",
+          "minute": 36,
+          "player": "Sami Khedira",
+          "xg": 0.06585366
+        },
+        {
+          "attacking_team": "South Korea",
+          "minute": 21,
+          "player": "Heung-Min Son",
+          "xg": 0.08637872
+        },
+        {
+          "attacking_team": "Brazil",
+          "minute": 62,
+          "player": "Willian Borges da Silva",
+          "xg": 0.026730016
+        }
+      ]
+    },
+    {
+      "x_bin": 11.0,
+      "y_bin": 5.0,
+      "shots": 4,
+      "total_xg": 0.14,
+      "examples": [
+        {
+          "attacking_team": "Saudi Arabia",
+          "minute": 7,
+          "player": "Mohammed Kanoo",
+          "xg": 0.047937077
+        },
+        {
+          "attacking_team": "Saudi Arabia",
+          "minute": 54,
+          "player": "Sultan Abdullah Salim Al Ghannam",
+          "xg": 0.030311959
+        },
+        {
+          "attacking_team": "Germany",
+          "minute": 2,
+          "player": "Timo Werner",
+          "xg": 0.049711905
+        },
+        {
+          "attacking_team": "Germany",
+          "minute": 70,
+          "player": "Marco Reus",
+          "xg": 0.009542241
+        }
+      ]
+    },
+    {
+      "x_bin": 9.0,
+      "y_bin": 5.0,
+      "shots": 6,
+      "total_xg": 0.14,
+      "examples": [
+        {
+          "attacking_team": "Germany",
+          "minute": 78,
+          "player": "Mesut \u00d6zil",
+          "xg": 0.034154605
+        },
+        {
+          "attacking_team": "Germany",
+          "minute": 89,
+          "player": "J\u00e9r\u00f4me Boateng",
+          "xg": 0.0076826327
+        },
+        {
+          "attacking_team": "South Korea",
+          "minute": 92,
+          "player": "Heung-Min Son",
+          "xg": 0.02292819
+        },
+        {
+          "attacking_team": "Brazil",
+          "minute": 55,
+          "player": "Neymar da Silva Santos Junior",
+          "xg": 0.033213302
+        }
+      ]
+    },
+    {
+      "x_bin": 9.0,
+      "y_bin": 2.0,
+      "shots": 3,
+      "total_xg": 0.07,
+      "examples": [
+        {
+          "attacking_team": "Germany",
+          "minute": 15,
+          "player": "Julian Draxler",
+          "xg": 0.020290153
+        },
+        {
+          "attacking_team": "Germany",
+          "minute": 21,
+          "player": "Toni Kroos",
+          "xg": 0.028065955
+        },
+        {
+          "attacking_team": "Brazil",
+          "minute": 39,
+          "player": "Neymar da Silva Santos Junior",
+          "xg": 0.017940922
+        }
+      ]
+    },
+    {
+      "x_bin": 8.0,
+      "y_bin": 4.0,
+      "shots": 2,
+      "total_xg": 0.05,
+      "examples": [
+        {
+          "attacking_team": "Saudi Arabia",
+          "minute": 80,
+          "player": "Salem Mohammed Al Dawsari",
+          "xg": 0.019886926
+        },
+        {
+          "attacking_team": "South Korea",
+          "minute": 30,
+          "player": "Heung-Min Son",
+          "xg": 0.026791243
+        }
+      ]
+    },
+    {
+      "x_bin": 8.0,
+      "y_bin": 2.0,
+      "shots": 1,
+      "total_xg": 0.01,
+      "examples": [
+        {
+          "attacking_team": "Germany",
+          "minute": 15,
+          "player": "Toni Kroos",
+          "xg": 0.0056767375
+        }
+      ]
+    },
+    {
+      "x_bin": 10.0,
+      "y_bin": 6.0,
+      "shots": 1,
+      "total_xg": 0.01,
+      "examples": [
+        {
+          "attacking_team": "South Korea",
+          "minute": 52,
+          "player": "Jae-Sung Lee",
+          "xg": 0.005266859
+        }
+      ]
+    },
+    {
+      "x_bin": 10.0,
+      "y_bin": 1.0,
+      "shots": 1,
+      "total_xg": 0.01,
+      "examples": [
+        {
+          "attacking_team": "South Korea",
+          "minute": 55,
+          "player": "Sung-Yeung Ki",
+          "xg": 0.008576281
+        }
+      ]
+    },
+    {
+      "x_bin": 8.0,
+      "y_bin": 5.0,
+      "shots": 1,
+      "total_xg": 0.01,
+      "examples": [
+        {
+          "attacking_team": "South Korea",
+          "minute": 73,
+          "player": "Sung-Yeung Ki",
+          "xg": 0.009588097
+        }
+      ]
+    },
+    {
+      "x_bin": 11.0,
+      "y_bin": 1.0,
+      "shots": 1,
+      "total_xg": 0.01,
+      "examples": [
+        {
+          "attacking_team": "Sweden",
+          "minute": 4,
+          "player": "Emil Peter Forsberg",
+          "xg": 0.007870639
+        }
+      ]
+    }
+  ],
+  "event_patterns": [
+    {
+      "category": "Mexico shot-zone vulnerability",
+      "pattern": "central lane / box / six-yard zone",
+      "count": 50,
+      "total_xg": 10.15,
+      "examples": [
+        "avg xG 0.20"
+      ],
+      "avg_xg": 0.203,
+      "detail": "avg xG 0.20"
+    },
+    {
+      "category": "England attacking route",
+      "pattern": "multi-pass plus carry ending in central lane, six-yard/central box",
+      "count": 7,
+      "total_xg": 3.28584792,
+      "examples": [
+        "minute 89 xG 0.63",
+        "minute 15 xG 0.63",
+        "minute 65 xG 0.46"
+      ],
+      "avg_xg": 0.46940684571428576,
+      "detail": "minute 89 xG 0.63; minute 15 xG 0.63; minute 65 xG 0.46"
+    },
+    {
+      "category": "Mexico conceded route",
+      "pattern": "multi-pass plus carry ending in central lane, six-yard/central box",
+      "count": 4,
+      "total_xg": 2.334905,
+      "examples": [
+        "minute 50 xG 0.93",
+        "minute 88 xG 0.55",
+        "minute 94 xG 0.52"
+      ],
+      "avg_xg": 0.58372625,
+      "detail": "minute 50 xG 0.93; minute 88 xG 0.55; minute 94 xG 0.52"
+    },
+    {
+      "category": "England attacking route",
+      "pattern": "multi-pass combination ending in central lane, six-yard/central box",
+      "count": 4,
+      "total_xg": 1.77974995,
+      "examples": [
+        "minute 39 xG 0.57",
+        "minute 90 xG 0.46",
+        "minute 38 xG 0.40"
+      ],
+      "avg_xg": 0.4449374875,
+      "detail": "minute 39 xG 0.57; minute 90 xG 0.46; minute 38 xG 0.40"
+    },
+    {
+      "category": "Mexico conceded route",
+      "pattern": "carry then final pass ending in central lane, six-yard/central box",
+      "count": 3,
+      "total_xg": 1.5143127600000001,
+      "examples": [
+        "minute 87 xG 0.92",
+        "minute 67 xG 0.30",
+        "minute 87 xG 0.29"
+      ],
+      "avg_xg": 0.50477092,
+      "detail": "minute 87 xG 0.92; minute 67 xG 0.30; minute 87 xG 0.29"
+    },
+    {
+      "category": "Mexico shot-zone vulnerability",
+      "pattern": "central lane / edge or inside box",
+      "count": 28,
+      "total_xg": 1.13,
+      "examples": [
+        "avg xG 0.04"
+      ],
+      "avg_xg": 0.040357142857142855,
+      "detail": "avg xG 0.04"
+    },
+    {
+      "category": "England attacking route",
+      "pattern": "carry then final pass ending in central lane, six-yard/central box",
+      "count": 2,
+      "total_xg": 0.69060909,
+      "examples": [
+        "minute 50 xG 0.44",
+        "minute 76 xG 0.25"
+      ],
+      "avg_xg": 0.345304545,
+      "detail": "minute 50 xG 0.44; minute 76 xG 0.25"
+    },
+    {
+      "category": "England attacking route",
+      "pattern": "single final pass ending in central lane, six-yard/central box",
+      "count": 1,
+      "total_xg": 0.6100251,
+      "examples": [
+        "minute 76 xG 0.61"
+      ],
+      "avg_xg": 0.6100251,
+      "detail": "minute 76 xG 0.61"
+    },
+    {
+      "category": "England attacking route",
+      "pattern": "second phase or loose-ball shot ending in central lane, six-yard/central box",
+      "count": 1,
+      "total_xg": 0.43713534,
+      "examples": [
+        "minute 38 xG 0.44"
+      ],
+      "avg_xg": 0.43713534,
+      "detail": "minute 38 xG 0.44"
+    },
+    {
+      "category": "Mexico conceded route",
+      "pattern": "multi-pass combination ending in central lane, six-yard/central box",
+      "count": 1,
+      "total_xg": 0.32448578,
+      "examples": [
+        "minute 30 xG 0.32"
+      ],
+      "avg_xg": 0.32448578,
+      "detail": "minute 30 xG 0.32"
+    },
+    {
+      "category": "Mexico conceded route",
+      "pattern": "single final pass ending in central lane, six-yard/central box",
+      "count": 1,
+      "total_xg": 0.31651607,
+      "examples": [
+        "minute 11 xG 0.32"
+      ],
+      "avg_xg": 0.31651607,
+      "detail": "minute 11 xG 0.32"
+    },
+    {
+      "category": "Mexico shot-zone vulnerability",
+      "pattern": "left channel / box / six-yard zone",
+      "count": 4,
+      "total_xg": 0.18,
+      "examples": [
+        "avg xG 0.04"
+      ],
+      "avg_xg": 0.045,
+      "detail": "avg xG 0.04"
+    },
+    {
+      "category": "Mexico shot-zone vulnerability",
+      "pattern": "right channel / box / six-yard zone",
+      "count": 3,
+      "total_xg": 0.12,
+      "examples": [
+        "avg xG 0.04"
+      ],
+      "avg_xg": 0.04,
+      "detail": "avg xG 0.04"
+    },
+    {
+      "category": "Mexico shot-zone vulnerability",
+      "pattern": "right channel / edge or inside box",
+      "count": 4,
+      "total_xg": 0.1,
+      "examples": [
+        "avg xG 0.03"
+      ],
+      "avg_xg": 0.025,
+      "detail": "avg xG 0.03"
+    },
+    {
+      "category": "Mexico shot-zone vulnerability",
+      "pattern": "central lane / outside box",
+      "count": 1,
+      "total_xg": 0.03,
+      "examples": [
+        "avg xG 0.03"
+      ],
+      "avg_xg": 0.03,
+      "detail": "avg xG 0.03"
+    },
+    {
+      "category": "Mexico shot-zone vulnerability",
+      "pattern": "left channel / edge or inside box",
+      "count": 1,
+      "total_xg": 0.01,
+      "examples": [
+        "avg xG 0.01"
+      ],
+      "avg_xg": 0.01,
+      "detail": "avg xG 0.01"
+    }
+  ]
+}
